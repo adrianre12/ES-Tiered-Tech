@@ -7,10 +7,11 @@
 				<SubtypeId>Components2x</SubtypeId>
 			</Id>
 			<DisplayName>TechX2</DisplayName>
-			<Description>Description_BlueprintClass_Components</Description>
-			<Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
-			<HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
-			<FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+			<Description>Tech
+				- Tech components are used in the construction of tiered systems.</Description>
+			<Icon>Textures\GUI\Icons\buttons\techComponent.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\buttons\techComponent.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\buttons\techComponent_focus.dds</FocusIcon>
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
 			<OutputConstraintIcon>Textures\GUI\Icons\FilterComponent.dds</OutputConstraintIcon>
 			<InputConstraintDescription>ToolTipItemFilter_AssemblerInput</InputConstraintDescription>
@@ -22,10 +23,11 @@
 				<SubtypeId>Components4x</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
-			<Description>Description_BlueprintClass_Components</Description>
-			<Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
-			<HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
-			<FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+			<Description>Tech
+				- Tech components are used in the construction of tiered systems.</Description>
+			<Icon>Textures\GUI\Icons\buttons\techComponent.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\buttons\techComponent.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\buttons\techComponent_focus.dds</FocusIcon>
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
 			<OutputConstraintIcon>Textures\GUI\Icons\FilterComponent.dds</OutputConstraintIcon>
 			<InputConstraintDescription>ToolTipItemFilter_AssemblerInput</InputConstraintDescription>
@@ -37,10 +39,11 @@
 				<SubtypeId>Components8x</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
-			<Description>Description_BlueprintClass_Components</Description>
-			<Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
-			<HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
-			<FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+			<Description>Tech
+				- Tech components are used in the construction of tiered systems.</Description>
+			<Icon>Textures\GUI\Icons\buttons\techComponent.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\buttons\techComponent.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\buttons\techComponent_focus.dds</FocusIcon>
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
 			<OutputConstraintIcon>Textures\GUI\Icons\FilterComponent.dds</OutputConstraintIcon>
 			<InputConstraintDescription>ToolTipItemFilter_AssemblerInput</InputConstraintDescription>
@@ -119,6 +122,22 @@
 			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
 		</Class>
 
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Thanatos</SubtypeId>
+			</Id>
+			<DisplayName>Thanatos</DisplayName>
+			<Description>Ores from Thanatos</Description>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+			<InputConstraintDescription>ToolTipItemFilter_RefineryInput</InputConstraintDescription>
+			<OutputConstraintDescription>ToolTipItemFilter_GenericProductionBlockOutput</OutputConstraintDescription>
+		</Class>
+
 	</BlueprintClasses>
 
 	<BlueprintClassEntries>
@@ -164,6 +183,9 @@
 		<Entry Class="OreToIngotT3" BlueprintSubtypeId="GoldOreToIngotCraft" />
 		<Entry Class="OreToIngotT3" BlueprintSubtypeId="PlatinumOreToIngotCraft" />
 		<Entry Class="OreToIngotT3" BlueprintSubtypeId="UraniumOreToIngotCraft" />
+
+		<Entry Class="Thanatos" BlueprintSubtypeId="TantaliteOreToIngot"/>
+		
 	</BlueprintClassEntries>
 
 

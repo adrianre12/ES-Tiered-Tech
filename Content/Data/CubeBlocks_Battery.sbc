@@ -55,7 +55,8 @@
             <DamageEffectId>214</DamageEffectId>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
-        </Definition>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
 
         <!--        Tier 2-->
         <!--Small Small Battery-->
@@ -114,8 +115,9 @@
             <DamageEffectId>214</DamageEffectId>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
-
-        </Definition>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		
         <!--Small Battery-->
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
@@ -177,8 +179,9 @@
             <IsAirTight>false</IsAirTight>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-
-        </Definition>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		
         <!--Large Battery-->
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
@@ -242,8 +245,8 @@
             <IsAirTight>true</IsAirTight>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-
-        </Definition>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
 
         <!--        Tier 4-->
         <!--Small Small Battery-->
@@ -302,8 +305,9 @@
             <DamageEffectId>214</DamageEffectId>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
-
-        </Definition>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		
         <!--Small Battery-->
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
@@ -365,8 +369,9 @@
             <IsAirTight>false</IsAirTight>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-
-        </Definition>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		
         <!--Large Battery-->
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
@@ -430,8 +435,8 @@
             <IsAirTight>true</IsAirTight>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-
-        </Definition>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
 
         <!--        Tier 8-->
         <!--Small Small Battery-->
@@ -490,8 +495,9 @@
             <DamageEffectId>214</DamageEffectId>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
-
-        </Definition>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		
         <!--Small Battery-->
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
@@ -553,8 +559,9 @@
             <IsAirTight>false</IsAirTight>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-
-        </Definition>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		
         <!--Large Battery-->
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
@@ -618,7 +625,7 @@
             <IsAirTight>true</IsAirTight>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-
-        </Definition>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
     </CubeBlocks>
 </Definitions>
