@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <CubeBlocks>
-        <!--        Tier 2-->
+        <!--Tier 2-->
         <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
             <Id>
                 <TypeId>OreDetector</TypeId>
@@ -45,7 +45,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>45</BuildTimeSeconds>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaximumRange>260</MaximumRange>
+            <MaximumRange>400</MaximumRange>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -95,7 +95,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>21</BuildTimeSeconds>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaximumRange>90</MaximumRange>
+            <MaximumRange>400</MaximumRange>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -148,7 +148,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>68</BuildTimeSeconds>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaximumRange>450</MaximumRange>
+            <MaximumRange>650</MaximumRange>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -198,7 +198,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>32</BuildTimeSeconds>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaximumRange>150</MaximumRange>
+            <MaximumRange>650</MaximumRange>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -251,7 +251,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>102</BuildTimeSeconds>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaximumRange>800</MaximumRange>
+            <MaximumRange>1000</MaximumRange>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -301,7 +301,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>48</BuildTimeSeconds>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaximumRange>270</MaximumRange>
+            <MaximumRange>1000</MaximumRange>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
