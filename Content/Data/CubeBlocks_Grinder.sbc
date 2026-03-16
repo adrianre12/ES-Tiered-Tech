@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <CubeBlocks>      
-        <!--        Tier 2-->
+        <!--Tier 2-->
         <!--Small Grinder-->
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
@@ -142,7 +142,7 @@
 
         </Definition>
 
-        <!--        Tier 4-->
+        <!--Tier 4-->
         <!--Small Grinder-->
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
@@ -283,7 +283,7 @@
 
         </Definition>
 
-        <!--        Tier 8-->
+        <!--Tier 8-->
         <!--Small Grinder-->
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>

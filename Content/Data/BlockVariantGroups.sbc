@@ -483,7 +483,16 @@
 				<Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder8x" />
 
 				<Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinderReskin" />
+				<Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinderReskin2x" />
+				<Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinderReskin4x" />
+				<Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinderReskin8x" />
+
+
 				<Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinderReskin" />
+				<Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinderReskin2x" />
+				<Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinderReskin4x" />
+				<Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinderReskin8x" />
+
 
 				<Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder" />
 				<Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder2x" />
@@ -496,7 +505,15 @@
 				<Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder8x" />
 
 				<Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelderReskin" />
+				<Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelderReskin2x" />
+				<Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelderReskin4x" />
+				<Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelderReskin8x" />
+
 				<Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelderReskin" />
+				<Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelderReskin2x" />
+				<Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelderReskin4" />
+				<Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelderReskin8x" />
+
 
 				<Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill" />
 				<Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill2x" />
@@ -509,7 +526,15 @@
 				<Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill8x" />
 
 				<Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrillReskin" />
+				<Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrillReskin2x" />
+				<Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrillReskin4x" />
+				<Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrillReskin8x" />
+
 				<Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrillReskin" />
+				<Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrillReskin2x" />
+				<Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrillReskin4x" />
+				<Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrillReskin8x" />
+
 			</Blocks>
 		</BlockVariantGroup>
 

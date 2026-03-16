@@ -124,7 +124,7 @@
             <PCU>150</PCU>
         </Definition>
 
-        <!--        Tier 2-->
+        <!--Tier 2-->
         <!--Small Welder-->
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
@@ -254,7 +254,7 @@
 
         </Definition>
 
-        <!--        Tier 4-->
+        <!--Tier 4-->
         <!--Small Welder-->
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
@@ -384,7 +384,7 @@
 
         </Definition>
 
-        <!--        Tier 8-->
+        <!--Tier 8-->
         <!--Small Welder-->
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
