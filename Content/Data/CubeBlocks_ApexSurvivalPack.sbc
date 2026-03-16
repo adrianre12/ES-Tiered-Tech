@@ -9,7 +9,7 @@
                 <SubtypeId>LargeBlockDrillReskin2x</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_DrillReskin2x</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\DrillReskin2x.dds</Icon>
+            <Icon>Textures\DrillReskin2x.dds</Icon>
             <Description>Description_Drill</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -89,7 +89,7 @@
                 <SubtypeId>SmallBlockDrillReskin2x</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_DrillReskin2x</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\DrillReskinSmall2x.dds</Icon>
+            <Icon>Textures\DrillReskinSmall2x.dds</Icon>
             <Description>Description_Drill</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -167,7 +167,7 @@
 				<SubtypeId>LargeBlockDrillReskin4x</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Block_DrillReskin4x</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\DrillReskin4x.dds</Icon>
+			<Icon>Textures\DrillReskin4x.dds</Icon>
 			<Description>Description_Drill</Description>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
@@ -247,7 +247,7 @@
 				<SubtypeId>SmallBlockDrillReskin4x</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Block_DrillReskin4x</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\DrillReskinSmall4x.dds</Icon>
+			<Icon>Textures\DrillReskinSmall4x.dds</Icon>
 			<Description>Description_Drill</Description>
 			<CubeSize>Small</CubeSize>
 			<GuiVisible>false</GuiVisible>
@@ -325,7 +325,7 @@
 				<SubtypeId>LargeBlockDrillReskin8x</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Block_DrillReskin8x</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\DrillReskin8x.dds</Icon>
+			<Icon>Textures\DrillReskin8x.dds</Icon>
 			<Description>Description_Drill</Description>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
@@ -405,7 +405,7 @@
 				<SubtypeId>SmallBlockDrillReskin8x</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Block_DrillReskin8x</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\DrillReskinSmall8x.dds</Icon>
+			<Icon>Textures\DrillReskinSmall8x.dds</Icon>
 			<Description>Description_Drill</Description>
 			<CubeSize>Small</CubeSize>
 			<GuiVisible>false</GuiVisible>
@@ -486,7 +486,7 @@
                 <SubtypeId>LargeShipGrinderReskin2x</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ShipGrinderReskin2x</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\GrinderReskin2x.dds</Icon>
+            <Icon>Textures\GrinderReskin2x.dds</Icon>
             <Description>Description_ShipGrinder</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -554,7 +554,7 @@
                 <SubtypeId>SmallShipGrinderReskin2x</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ShipGrinderReskin2x</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\GrinderReskinSmall2x.dds</Icon>
+            <Icon>Textures\GrinderReskinSmall2x.dds</Icon>
             <Description>Description_ShipGrinder</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -623,7 +623,7 @@
 				<SubtypeId>LargeShipGrinderReskin4x</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Block_ShipGrinderReskin4x</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\GrinderReskin4x.dds</Icon>
+			<Icon>Textures\GrinderReskin4x.dds</Icon>
 			<Description>Description_ShipGrinder</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -691,7 +691,7 @@
 				<SubtypeId>SmallShipGrinderReskin4x</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Block_ShipGrinderReskin4x</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\GrinderReskinSmall4x.dds</Icon>
+			<Icon>Textures\GrinderReskinSmall4x.dds</Icon>
 			<Description>Description_ShipGrinder</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -760,7 +760,7 @@
 				<SubtypeId>LargeShipGrinderReskin8x</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Block_ShipGrinderReskin8x</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\GrinderReskin8x.dds</Icon>
+			<Icon>Textures\GrinderReskin8x.dds</Icon>
 			<Description>Description_ShipGrinder</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -828,7 +828,7 @@
 				<SubtypeId>SmallShipGrinderReskin8x</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Block_ShipGrinderReskin8x</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\GrinderReskinSmall8x.dds</Icon>
+			<Icon>Textures\GrinderReskinSmall8x.dds</Icon>
 			<Description>Description_ShipGrinder</Description>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -899,7 +899,7 @@
                 <SubtypeId>LargeShipWelderReskin2x</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ShipWelderReskin2x</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WelderReskin2x.dds</Icon>
+            <Icon>Textures\WelderReskin2x.dds</Icon>
             <Description>Description_ShipWelder</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -968,7 +968,7 @@
                 <SubtypeId>SmallShipWelderReskin2x</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_ShipWelderReskin2x</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\WelderReskinSmall2x.dds</Icon>
+            <Icon>Textures\WelderReskinSmall2x.dds</Icon>
             <Description>Description_ShipWelder</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -1026,7 +1026,7 @@
 				<SubtypeId>LargeShipWelderReskin4x</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Block_ShipWelderReskin4x</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\WelderReskin4x.dds</Icon>
+			<Icon>Textures\WelderReskin4x.dds</Icon>
 			<Description>Description_ShipWelder</Description>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
@@ -1095,7 +1095,7 @@
 				<SubtypeId>SmallShipWelderReskin4x</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Block_ShipWelderReskin4x</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\WelderReskinSmall4x.dds</Icon>
+			<Icon>Textures\WelderReskinSmall4x.dds</Icon>
 			<Description>Description_ShipWelder</Description>
 			<CubeSize>Small</CubeSize>
 			<GuiVisible>false</GuiVisible>
@@ -1153,7 +1153,7 @@
 				<SubtypeId>LargeShipWelderReskin8x</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Block_ShipWelderReskin8x</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\WelderReskin8x.dds</Icon>
+			<Icon>Textures\WelderReskin8x.dds</Icon>
 			<Description>Description_ShipWelder</Description>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
@@ -1222,7 +1222,7 @@
 				<SubtypeId>SmallShipWelderReskin8x</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Block_ShipWelderReskin8x</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\WelderReskinSmall8x.dds</Icon>
+			<Icon>Textures\WelderReskinSmall8x.dds</Icon>
 			<Description>Description_ShipWelder</Description>
 			<CubeSize>Small</CubeSize>
 			<GuiVisible>false</GuiVisible>
