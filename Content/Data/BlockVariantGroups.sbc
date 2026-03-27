@@ -511,7 +511,7 @@
 
 				<Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelderReskin" />
 				<Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelderReskin2x" />
-				<Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelderReskin4" />
+				<Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelderReskin4x" />
 				<Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelderReskin8x" />
 
 
