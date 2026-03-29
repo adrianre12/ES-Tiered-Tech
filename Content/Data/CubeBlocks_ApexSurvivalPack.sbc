@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <CubeBlocks>
-        <!-- Decorative Blocks 207 update-->
-        <!--Tier 2-->
-        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
-            <Id>
-                <TypeId>Drill</TypeId>
-                <SubtypeId>LargeBlockDrillReskin2x</SubtypeId>
-            </Id>
-            <DisplayName>DisplayName_Block_DrillReskin2x</DisplayName>
-            <Icon>Textures\DrillReskin2x.dds</Icon>
-            <Description>Description_Drill</Description>
-            <CubeSize>Large</CubeSize>
-            <GuiVisible>false</GuiVisible>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="1" y="1" z="3" />
-            <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\DrillReskin.mwm</Model>
-            <PlaceDecals>false</PlaceDecals>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
+	<CubeBlocks>
+		<!-- Decorative Blocks 207 update-->
+		<!--Tier 2-->
+		<Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>LargeBlockDrillReskin2x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_DrillReskin2x</DisplayName>
+			<Icon>Textures\DrillReskin2x.dds</Icon>
+			<Description>Description_Drill</Description>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\DrillReskin.mwm</Model>
+			<PlaceDecals>false</PlaceDecals>
+			<UseModelIntersection>true</UseModelIntersection>
+			<UsesDeformation>false</UsesDeformation>
+			<Components>
 				<Component Subtype="Tech2x" Count="40"/>
 				<Component Subtype="SteelPlate" Count="270"/>
 				<Component Subtype="Construction" Count="60"/>
@@ -28,78 +28,78 @@
 				<Component Subtype="Motor" Count="8"/>
 				<Component Subtype="Computer" Count="8"/>
 				<Component Subtype="SteelPlate" Count="180"/>
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
-            <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="1" EndY="3" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Left" StartX="2" StartY="0" EndX="3" EndY="1" />
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DrillReskin_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DrillReskin_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillReskin_Construction_3.mwm" />
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-                <StaticMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0.01</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <BlockPairName>DrillReskin2x</BlockPairName>
-            <MirroringY>Z</MirroringY>
-            <MirroringZ>Y</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>45</BuildTimeSeconds>
-            <Center x="0" y="0" z="2" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="2" EndX="1" EndY="3" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Left" StartX="2" StartY="0" EndX="3" EndY="1" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DrillReskin_Construction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DrillReskin_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillReskin_Construction_3.mwm" />
+			</BuildProgressModels>
+			<VoxelPlacement>
+				<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0.01</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<BlockPairName>DrillReskin2x</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>45</BuildTimeSeconds>
+			<Center x="0" y="0" z="2" />
 
-            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
 			<SensorRadius>4.7</SensorRadius>
 			<SensorOffset>2.8</SensorOffset>
 			<CutOutRadius>4.7</CutOutRadius>
 			<CutOutOffset>2.8</CutOutOffset>
-            <ParticleOffset>
-                <X>0</X>
-                <Y>0</Y>
-                <Z>-3.6</Z>
-            </ParticleOffset>
-            <Speed>3.5</Speed>
-            <DeformationRatio>0.2</DeformationRatio>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <PrimarySound>ToolShipDrillIdle</PrimarySound>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <PCU>190</PCU>
+			<ParticleOffset>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>-3.6</Z>
+			</ParticleOffset>
+			<Speed>3.5</Speed>
+			<DeformationRatio>0.2</DeformationRatio>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>ToolShipDrillIdle</PrimarySound>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>190</PCU>
 			<DLC>ApexSurvival</DLC>
-        </Definition>
+		</Definition>
 
-        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
-            <Id>
-                <TypeId>Drill</TypeId>
-                <SubtypeId>SmallBlockDrillReskin2x</SubtypeId>
-            </Id>
-            <DisplayName>DisplayName_Block_DrillReskin2x</DisplayName>
-            <Icon>Textures\DrillReskinSmall2x.dds</Icon>
-            <Description>Description_Drill</Description>
-            <CubeSize>Small</CubeSize>
-            <GuiVisible>false</GuiVisible>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="6" />
-            <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Small\DrillReskinSmall.mwm</Model>
-            <PlaceDecals>false</PlaceDecals>
-            <UseModelIntersection>true</UseModelIntersection>
-            <Components>
+		<Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>SmallBlockDrillReskin2x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_DrillReskin2x</DisplayName>
+			<Icon>Textures\DrillReskinSmall2x.dds</Icon>
+			<Description>Description_Drill</Description>
+			<CubeSize>Small</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="6" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\DrillReskinSmall.mwm</Model>
+			<PlaceDecals>false</PlaceDecals>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
 				<Component Subtype="Tech2x" Count="20"/>
 				<Component Subtype="SteelPlate" Count="30"/>
 				<Component Subtype="Construction" Count="45"/>
@@ -107,58 +107,58 @@
 				<Component Subtype="Motor" Count="2"/>
 				<Component Subtype="Computer" Count="2"/>
 				<Component Subtype="SteelPlate" Count="18"/>
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
-            <Center x="1" y="1" z="5" />
-            <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0.5" EndX="3" EndY="2.5" Default="true" />
-                <MountPoint Side="Right" StartX="0" StartY="1" EndX="1" EndY="2" />
-                <MountPoint Side="Left" StartX="5" StartY="1" EndX="6" EndY="2" />
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\DrillReskinSmall_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillReskinSmall_Construction_2.mwm" />
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-                <StaticMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0.01</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <BlockPairName>DrillReskin2x</BlockPairName>
-            <MirroringY>Z</MirroringY>
-            <MirroringZ>Y</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>30</BuildTimeSeconds>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<Center x="1" y="1" z="5" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0" StartY="0.5" EndX="3" EndY="2.5" Default="true" />
+				<MountPoint Side="Right" StartX="0" StartY="1" EndX="1" EndY="2" />
+				<MountPoint Side="Left" StartX="5" StartY="1" EndX="6" EndY="2" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\DrillReskinSmall_Construction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillReskinSmall_Construction_2.mwm" />
+			</BuildProgressModels>
+			<VoxelPlacement>
+				<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0.01</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<BlockPairName>DrillReskin2x</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
 
-            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
 			<SensorRadius>2.58</SensorRadius>
 			<SensorOffset>0.8</SensorOffset>
 			<CutOutRadius>2.58</CutOutRadius>
 			<CutOutOffset>0.6</CutOutOffset>
-            <ParticleOffset>
-                <X>0</X>
-                <Y>0</Y>
-                <Z>-1.45</Z>
-            </ParticleOffset>
-            <Speed>4</Speed>
-            <DeformationRatio>0.2</DeformationRatio>
-            <UsesDeformation>false</UsesDeformation>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <PrimarySound>ToolShipDrillIdle</PrimarySound>
-            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <PCU>190</PCU>
+			<ParticleOffset>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>-1.45</Z>
+			</ParticleOffset>
+			<Speed>4</Speed>
+			<DeformationRatio>0.2</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>ToolShipDrillIdle</PrimarySound>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>190</PCU>
 			<DLC>ApexSurvival</DLC>
-        </Definition>
+		</Definition>
 
 		<!--Tier 4-->
 		<Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
@@ -476,27 +476,27 @@
 			<DLC>ApexSurvival</DLC>
 		</Definition>
 
-		
-		
-		
+
+
+
 		<!--Tier 2-->
 		<Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
-            <Id>
-                <TypeId>ShipGrinder</TypeId>
-                <SubtypeId>LargeShipGrinderReskin2x</SubtypeId>
-            </Id>
-            <DisplayName>DisplayName_Block_ShipGrinderReskin2x</DisplayName>
-            <Icon>Textures\GrinderReskin2x.dds</Icon>
-            <Description>Description_ShipGrinder</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="1" y="1" z="2" />
-            <ModelOffset x="0" y="0" z="0" />
-            <Center x="0" y="0" z="1" />
-            <Model>Models\Cubes\Large\GrinderReskin.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
+			<Id>
+				<TypeId>ShipGrinder</TypeId>
+				<SubtypeId>LargeShipGrinderReskin2x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_ShipGrinderReskin2x</DisplayName>
+			<Icon>Textures\GrinderReskin2x.dds</Icon>
+			<Description>Description_ShipGrinder</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Center x="0" y="0" z="1" />
+			<Model>Models\Cubes\Large\GrinderReskin.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<UsesDeformation>false</UsesDeformation>
+			<Components>
 				<Component Subtype="Tech2x" Count="60"/>
 				<Component Subtype="SteelPlate" Count="23"/>
 				<Component Subtype="Construction" Count="38"/>
@@ -505,66 +505,66 @@
 				<Component Subtype="Computer" Count="3"/>
 				<Component Subtype="Construction" Count="8"/>
 				<Component Subtype="SteelPlate" Count="8"/>
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderReskin_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderReskin_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderReskin_Construction_3.mwm" />
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-                <StaticMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0.01</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="1.1" StartY="0.10" EndX="2" EndY="0.90" />
-                <MountPoint Side="Right" StartX="0" StartY="0.10" EndX="0.9" EndY="0.9" />
-                <MountPoint Side="Top" StartX="0.1" StartY="0" EndX="0.90" EndY="0.90" />
-                <MountPoint Side="Bottom" StartX="0.1" StartY="1.10" EndX="0.90" EndY="2" />
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-            </MountPoints>
-            <BlockPairName>ShipGrinderReskin2x</BlockPairName>
-            <MirroringZ>Y</MirroringZ>
-            <MirroringY>Z</MirroringY>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>36</BuildTimeSeconds>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <Flare></Flare>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>4</SensorRadius>
-            <PCU>100</PCU>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderReskin_Construction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderReskin_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderReskin_Construction_3.mwm" />
+			</BuildProgressModels>
+			<VoxelPlacement>
+				<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0.01</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<MountPoints>
+				<MountPoint Side="Left" StartX="1.1" StartY="0.10" EndX="2" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0" StartY="0.10" EndX="0.9" EndY="0.9" />
+				<MountPoint Side="Top" StartX="0.1" StartY="0" EndX="0.90" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.1" StartY="1.10" EndX="0.90" EndY="2" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+			</MountPoints>
+			<BlockPairName>ShipGrinderReskin2x</BlockPairName>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<EdgeType>Light</EdgeType>
+			<Public>true</Public>
+			<BuildTimeSeconds>36</BuildTimeSeconds>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<Flare></Flare>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<SensorRadius>4</SensorRadius>
+			<PCU>100</PCU>
 			<DLC>ApexSurvival</DLC>
-        </Definition>
-        
-        <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
-            <Id>
-                <TypeId>ShipGrinder</TypeId>
-                <SubtypeId>SmallShipGrinderReskin2x</SubtypeId>
-            </Id>
-            <DisplayName>DisplayName_Block_ShipGrinderReskin2x</DisplayName>
-            <Icon>Textures\GrinderReskinSmall2x.dds</Icon>
-            <Description>Description_ShipGrinder</Description>
-            <CubeSize>Small</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="6" />
-            <ModelOffset x="0" y="0" z="0" />
-            <Center x="1" y="1" z="3" />
-            <Model>Models\Cubes\Small\GrinderReskinSmall.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+			<Id>
+				<TypeId>ShipGrinder</TypeId>
+				<SubtypeId>SmallShipGrinderReskin2x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_ShipGrinderReskin2x</DisplayName>
+			<Icon>Textures\GrinderReskinSmall2x.dds</Icon>
+			<Description>Description_ShipGrinder</Description>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="6" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Center x="1" y="1" z="3" />
+			<Model>Models\Cubes\Small\GrinderReskinSmall.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<UsesDeformation>false</UsesDeformation>
+			<Components>
 				<Component Subtype="Tech2x" Count="45"/>
 				<Component Subtype="SteelPlate" Count="15"/>
 				<Component Subtype="Construction" Count="23"/>
@@ -573,48 +573,48 @@
 				<Component Subtype="Computer" Count="3"/>
 				<Component Subtype="Construction" Count="3"/>
 				<Component Subtype="SteelPlate" Count="3"/>
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\GrinderReskinSmall_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderReskinSmall_Construction_2.mwm" />
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-                <StaticMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0.01</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="3" StartY="0.2" EndX="6" EndY="2.5" />
-                <MountPoint Side="Right" StartX="0" StartY="0.2" EndX="3" EndY="2.5" />
-                <MountPoint Side="Top" StartX="0.3" StartY="0" EndX="2.7" EndY="1" />
-                <MountPoint Side="Bottom" StartX="0.3" StartY="3" EndX="2.7" EndY="6" />
-                <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" Default="true" />
-            </MountPoints>
-            <BlockPairName>ShipGrinderReskin2x</BlockPairName>
-            <MirroringZ>Y</MirroringZ>
-            <MirroringY>Z</MirroringY>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>27</BuildTimeSeconds>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <Flare></Flare>
-            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>3</SensorRadius>
-            <PCU>100</PCU>
-            <IsAirTight>false</IsAirTight>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\GrinderReskinSmall_Construction_1.mwm" />
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderReskinSmall_Construction_2.mwm" />
+			</BuildProgressModels>
+			<VoxelPlacement>
+				<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0.01</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<MountPoints>
+				<MountPoint Side="Left" StartX="3" StartY="0.2" EndX="6" EndY="2.5" />
+				<MountPoint Side="Right" StartX="0" StartY="0.2" EndX="3" EndY="2.5" />
+				<MountPoint Side="Top" StartX="0.3" StartY="0" EndX="2.7" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.3" StartY="3" EndX="2.7" EndY="6" />
+				<MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" Default="true" />
+			</MountPoints>
+			<BlockPairName>ShipGrinderReskin2x</BlockPairName>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<EdgeType>Light</EdgeType>
+			<Public>true</Public>
+			<BuildTimeSeconds>27</BuildTimeSeconds>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<Flare></Flare>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<SensorRadius>3</SensorRadius>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
 			<DLC>ApexSurvival</DLC>
-        </Definition>
+		</Definition>
 
 		<!--Tier 4-->
 		<Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
@@ -888,29 +888,29 @@
 			<PCU>100</PCU>
 			<IsAirTight>false</IsAirTight>
 			<DLC>ApexSurvival</DLC>
-		</Definition>		
-		
-		
-		
+		</Definition>
+
+
+
 		<!--Tier 2-->
-        <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
-            <Id>
-                <TypeId>ShipWelder</TypeId>
-                <SubtypeId>LargeShipWelderReskin2x</SubtypeId>
-            </Id>
-            <DisplayName>DisplayName_Block_ShipWelderReskin2x</DisplayName>
-            <Icon>Textures\WelderReskin2x.dds</Icon>
-            <Description>Description_ShipWelder</Description>
-            <CubeSize>Large</CubeSize>
-            <GuiVisible>false</GuiVisible>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="1" y="1" z="2" />
-            <ModelOffset x="0" y="0" z="0" />
-            <Center x="0" y="0" z="1" />
-            <Model>Models\Cubes\Large\WelderReskin.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
+		<Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+			<Id>
+				<TypeId>ShipWelder</TypeId>
+				<SubtypeId>LargeShipWelderReskin2x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_ShipWelderReskin2x</DisplayName>
+			<Icon>Textures\WelderReskin2x.dds</Icon>
+			<Description>Description_ShipWelder</Description>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Center x="0" y="0" z="1" />
+			<Model>Models\Cubes\Large\WelderReskin.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<UsesDeformation>false</UsesDeformation>
+			<Components>
 				<Component Subtype="Tech2x" Count="80"/>
 				<Component Subtype="SteelPlate" Count="23"/>
 				<Component Subtype="Construction" Count="38"/>
@@ -919,67 +919,67 @@
 				<Component Subtype="Computer" Count="3"/>
 				<Component Subtype="Construction" Count="8"/>
 				<Component Subtype="SteelPlate" Count="8"/>
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderReskin_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderReskin_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderReskin_Construction_3.mwm" />
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <StaticMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0.01</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="1.1" StartY="0.10" EndX="2" EndY="0.90" />
-                <MountPoint Side="Right" StartX="0" StartY="0.10" EndX="0.9" EndY="0.9" />
-                <MountPoint Side="Top" StartX="0.1" StartY="0" EndX="0.90" EndY="0.90" />
-                <MountPoint Side="Bottom" StartX="0.1" StartY="1.10" EndX="0.90" EndY="2" />
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-            </MountPoints>
-            <BlockPairName>ShipWelderReskin2x</BlockPairName>
-            <MirroringZ>Y</MirroringZ>
-            <MirroringY>Z</MirroringY>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>36</BuildTimeSeconds>
-            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <Flare>ShipWelderLarge</Flare>
-            <EmissiveColorPreset>Welder</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>10.5</SensorRadius>
-            <PCU>150</PCU>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderReskin_Construction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderReskin_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderReskin_Construction_3.mwm" />
+			</BuildProgressModels>
+			<VoxelPlacement>
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0.01</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<MountPoints>
+				<MountPoint Side="Left" StartX="1.1" StartY="0.10" EndX="2" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0" StartY="0.10" EndX="0.9" EndY="0.9" />
+				<MountPoint Side="Top" StartX="0.1" StartY="0" EndX="0.90" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.1" StartY="1.10" EndX="0.90" EndY="2" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+			</MountPoints>
+			<BlockPairName>ShipWelderReskin2x</BlockPairName>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<EdgeType>Light</EdgeType>
+			<Public>true</Public>
+			<BuildTimeSeconds>36</BuildTimeSeconds>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<Flare>ShipWelderLarge</Flare>
+			<EmissiveColorPreset>Welder</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<SensorRadius>10.5</SensorRadius>
+			<PCU>150</PCU>
 			<DLC>ApexSurvival</DLC>
-        </Definition>
-        
-        <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
-            <Id>
-                <TypeId>ShipWelder</TypeId>
-                <SubtypeId>SmallShipWelderReskin2x</SubtypeId>
-            </Id>
-            <DisplayName>DisplayName_Block_ShipWelderReskin2x</DisplayName>
-            <Icon>Textures\WelderReskinSmall2x.dds</Icon>
-            <Description>Description_ShipWelder</Description>
-            <CubeSize>Small</CubeSize>
-            <GuiVisible>false</GuiVisible>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="6" />
-            <ModelOffset x="0" y="0" z="0" />
-            <Center x="1" y="1" z="3" />
-            <Model>Models\Cubes\Small\WelderReskinSmall.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+			<Id>
+				<TypeId>ShipWelder</TypeId>
+				<SubtypeId>SmallShipWelderReskin2x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_ShipWelderReskin2x</DisplayName>
+			<Icon>Textures\WelderReskinSmall2x.dds</Icon>
+			<Description>Description_ShipWelder</Description>
+			<CubeSize>Small</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="6" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Center x="1" y="1" z="3" />
+			<Model>Models\Cubes\Small\WelderReskinSmall.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<UsesDeformation>false</UsesDeformation>
+			<Components>
 				<Component Subtype="Tech2x" Count="40"/>
 				<Component Subtype="SteelPlate" Count="15"/>
 				<Component Subtype="Construction" Count="23"/>
@@ -988,36 +988,36 @@
 				<Component Subtype="Computer" Count="3"/>
 				<Component Subtype="Construction" Count="3"/>
 				<Component Subtype="SteelPlate" Count="3"/>
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderReskinSmall_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WelderReskinSmall_Construction_2.mwm" />
-            </BuildProgressModels>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="3" StartY="0.2" EndX="6" EndY="2.5" />
-                <MountPoint Side="Right" StartX="0" StartY="0.2" EndX="3" EndY="2.5" />
-                <MountPoint Side="Top" StartX="0.3" StartY="0" EndX="2.7" EndY="1" />
-                <MountPoint Side="Bottom" StartX="0.3" StartY="3" EndX="2.7" EndY="6" />
-                <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" Default="true" />
-            </MountPoints>
-            <BlockPairName>ShipWelderReskin2x</BlockPairName>
-            <MirroringZ>Y</MirroringZ>
-            <MirroringY>Z</MirroringY>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>27</BuildTimeSeconds>
-            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <Flare>ShipWelder</Flare>
-            <EmissiveColorPreset>Welder</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>4.3750</SensorRadius>
-            <PCU>150</PCU>
-            <IsAirTight>false</IsAirTight>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderReskinSmall_Construction_1.mwm" />
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WelderReskinSmall_Construction_2.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Left" StartX="3" StartY="0.2" EndX="6" EndY="2.5" />
+				<MountPoint Side="Right" StartX="0" StartY="0.2" EndX="3" EndY="2.5" />
+				<MountPoint Side="Top" StartX="0.3" StartY="0" EndX="2.7" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.3" StartY="3" EndX="2.7" EndY="6" />
+				<MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" Default="true" />
+			</MountPoints>
+			<BlockPairName>ShipWelderReskin2x</BlockPairName>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<EdgeType>Light</EdgeType>
+			<Public>true</Public>
+			<BuildTimeSeconds>27</BuildTimeSeconds>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<Flare>ShipWelder</Flare>
+			<EmissiveColorPreset>Welder</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<SensorRadius>4.3750</SensorRadius>
+			<PCU>150</PCU>
+			<IsAirTight>false</IsAirTight>
 			<DLC>ApexSurvival</DLC>
-        </Definition>
+		</Definition>
 
 		<!--Tier 4-->
 		<Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
