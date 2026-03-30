@@ -66,7 +66,7 @@
             <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-            <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
+            <EffectivenessAtMaxInfluence>0.5</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
             <FlameDamage>0.1</FlameDamage>
@@ -162,7 +162,7 @@
             <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-            <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
+            <EffectivenessAtMaxInfluence>0.5</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
             <FlameDamage>0.2</FlameDamage>
@@ -259,7 +259,7 @@
             <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-            <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
+            <EffectivenessAtMaxInfluence>0.5</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
             <FlameLengthScale>1.5</FlameLengthScale>
@@ -357,7 +357,7 @@
             <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-            <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
+            <EffectivenessAtMaxInfluence>0.5</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
             <FlameLengthScale>1.15</FlameLengthScale>
@@ -454,7 +454,7 @@
             <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-            <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
             <FlameDamage>0.1</FlameDamage>
@@ -550,7 +550,7 @@
             <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-            <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
             <FlameDamage>0.2</FlameDamage>
@@ -647,7 +647,7 @@
             <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-            <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
             <FlameLengthScale>1.5</FlameLengthScale>
@@ -745,7 +745,7 @@
             <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-            <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
             <FlameLengthScale>1.15</FlameLengthScale>
@@ -843,7 +843,7 @@
             <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-            <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
             <FlameDamage>0.1</FlameDamage>
@@ -939,7 +939,7 @@
             <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-            <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
             <FlameDamage>0.2</FlameDamage>
@@ -1036,7 +1036,7 @@
             <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-            <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
             <FlameLengthScale>1.5</FlameLengthScale>
@@ -1134,7 +1134,7 @@
             <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-            <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
             <FlameLengthScale>1.15</FlameLengthScale>
