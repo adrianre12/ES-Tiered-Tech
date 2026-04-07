@@ -1844,6 +1844,7 @@
 			<OperationalPowerConsumption>3.0013</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>Ingots</Class>
+				<Class>Thanatos</Class>
 			</BlueprintClasses>
 			<RefineSpeed>6.9672</RefineSpeed>
 			<MaterialEfficiency>1.2</MaterialEfficiency>
