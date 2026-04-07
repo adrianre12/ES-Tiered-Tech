@@ -43,7 +43,7 @@
 			<Icon>Textures\tech8x.dds</Icon>
 			<Prerequisites>
 				<Item Amount="6" TypeId="Component" SubtypeId="Tech4x"/>
-				<Item Amount="8" TypeId="Ingot" SubtypeId="Tantalum"/>
+				<Item Amount="12" TypeId="Ingot" SubtypeId="Tantalum"/>
 				<Item Amount="3" TypeId="Ingot" SubtypeId="Platinum"/>
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech8x"/>
@@ -61,9 +61,9 @@
 				<Item Amount="1" TypeId="Ore" SubtypeId="Tantalite" />
 			</Prerequisites>
 			<Results>
-				<Item Amount="0.005" TypeId="Ingot" SubtypeId="Tantalum" />
+				<Item Amount="0.0025" TypeId="Ingot" SubtypeId="Tantalum" />
 			</Results>
-			<BaseProductionTimeInSeconds>16</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>32</BaseProductionTimeInSeconds>
 		</Blueprint>
 
 		<Blueprint>
