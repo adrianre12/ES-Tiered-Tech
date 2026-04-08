@@ -28,7 +28,7 @@
 			<Icon>Textures\tech4x.dds</Icon>
 			<Prerequisites>
 				<Item Amount="5" TypeId="Component" SubtypeId="Tech2x"/>
-				<Item Amount="" TypeId="Ingot" SubtypeId="Platinum"/>
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Platinum"/>
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech4x"/>
 			<BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
