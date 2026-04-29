@@ -58,5 +58,32 @@
 			<MaximumAcquisitionAmount>200</MaximumAcquisitionAmount>
 		</PhysicalItem>
 
+		<PhysicalItem>
+			<Id>
+				<TypeId>Ingot</TypeId>
+				<SubtypeId>ImpureNebulium</SubtypeId>
+			</Id>
+			<DisplayName>Impure Nebulium</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\generic_ingot.dds</Icon>
+			<Size>
+				<X>0.036</X>
+				<Y>0.036</Y>
+				<Z>0.036</Z>
+			</Size>
+			<Mass>1</Mass>
+			<Volume>0.047</Volume>
+			<Model>Models\Ingots\generic_ingot.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<IconSymbol>Ta</IconSymbol>
+			<MinimumOfferAmount>200</MinimumOfferAmount>
+			<MaximumOfferAmount>2000</MaximumOfferAmount>
+			<MinimumOrderAmount>10</MinimumOrderAmount>
+			<MaximumOrderAmount>1000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+
+			<MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>200</MaximumAcquisitionAmount>
+		</PhysicalItem>
+
 	</PhysicalItems>
 </Definitions>

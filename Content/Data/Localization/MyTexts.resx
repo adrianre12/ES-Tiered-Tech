@@ -117,7 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
   <data name="DisplayName_Block_DrillReskin2x" xml:space="preserve">
     <value>Enhanced Drill Type II</value>
   </data>
@@ -127,7 +126,6 @@
   <data name="DisplayName_Block_ShipWelderReskin2x" xml:space="preserve">
     <value>Enhanced Welder Type II</value>
   </data>
-  
   <data name="DisplayName_Block_DrillReskin4x" xml:space="preserve">
     <value>Proficient Drill Type II</value>
   </data>
@@ -137,7 +135,6 @@
   <data name="DisplayName_Block_ShipWelderReskin4x" xml:space="preserve">
     <value>Proficient Welder Type II</value>
   </data>
- 
   <data name="DisplayName_Block_DrillReskin8x" xml:space="preserve">
     <value>Elite Drill Type II</value>
   </data>
@@ -147,5 +144,10 @@
   <data name="DisplayName_Block_ShipWelderReskin8x" xml:space="preserve">
     <value>Elite Welder Type II</value>
   </data>
-  
-  </root>
+  <data name="DisplayName_Block_AdminAssembler" xml:space="preserve">
+    <value>AdminAssembler</value>
+  </data>
+  <data name="Description_AdminAssembler" xml:space="preserve">
+    <value>Assembler for Admin use</value>
+  </data>
+</root>

@@ -137,6 +137,22 @@
 			<OutputConstraintDescription>ToolTipItemFilter_GenericProductionBlockOutput</OutputConstraintDescription>
 		</Class>
 
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>AdminComponents</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+			<Description>Description_BlueprintClass_Components</Description>
+			<Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\FilterComponent.dds</OutputConstraintIcon>
+			<InputConstraintDescription>ToolTipItemFilter_SurvivalKitInput</InputConstraintDescription>
+			<OutputConstraintDescription>ToolTipItemFilter_GenericProductionBlockOutput</OutputConstraintDescription>
+		</Class>
+		
 	</BlueprintClasses>
 
 	<BlueprintClassEntries>
@@ -184,6 +200,8 @@
 		<Entry Class="OreToIngotT3" BlueprintSubtypeId="UraniumOreToIngotCraft" />
 
 		<Entry Class="Thanatos" BlueprintSubtypeId="TantaliteOreToIngot"/>
+
+		<Entry Class="AdminComponents" BlueprintSubtypeId="NebuliumInfusion"/>
 		
 	</BlueprintClassEntries>
 
