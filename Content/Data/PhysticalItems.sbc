@@ -74,7 +74,7 @@
 			<Volume>0.047</Volume>
 			<Model>Models\Ingots\generic_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
-			<IconSymbol>Ta</IconSymbol>
+			<IconSymbol>Nm</IconSymbol>
 			<MinimumOfferAmount>200</MinimumOfferAmount>
 			<MaximumOfferAmount>2000</MaximumOfferAmount>
 			<MinimumOrderAmount>10</MinimumOrderAmount>
