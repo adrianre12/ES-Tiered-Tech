@@ -71,7 +71,7 @@
 				<Z>0.036</Z>
 			</Size>
 			<Mass>1</Mass>
-			<Volume>0.047</Volume>
+			<Volume>0.05</Volume>
 			<Model>Models\Ingots\generic_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>Nm</IconSymbol>
