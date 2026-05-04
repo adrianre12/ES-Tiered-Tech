@@ -126,7 +126,7 @@
 				<Y>0.1</Y>
 				<Z>0.1</Z>
 			</Size>
-			<Mass>8</Mass>
+			<Mass>0.1</Mass>
 			<Volume>2</Volume>
 			<Model>Models\Cubes\small\EAtomicBatterySubpart2.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>

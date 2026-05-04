@@ -45,7 +45,7 @@
 				<Item Amount="6" TypeId="Component" SubtypeId="Tech4x"/>
 				<Item Amount="12" TypeId="Ingot" SubtypeId="Tantalum"/>
 				<Item Amount="3" TypeId="Ingot" SubtypeId="Platinum"/>
-				<Item Amount="1" TypeId="Component" SubtypeId="NebuliumInfusion"/>
+				<Item Amount="10" TypeId="Component" SubtypeId="NebuliumInfusion"/>
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech8x"/>
 			<BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
@@ -75,10 +75,10 @@
 			<DisplayName>Nebulium Infusion</DisplayName>
 			<Icon>Textures\GUI\Icons\Components\EmergencyTritiumCell.dds</Icon>
 			<Prerequisites>
-				<Item Amount="10000" TypeId="Ingot" SubtypeId="ImpureNebulium" />
+				<Item Amount="1000" TypeId="Ingot" SubtypeId="ImpureNebulium" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="NebuliumInfusion" />
-			<BaseProductionTimeInSeconds>240</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 		
