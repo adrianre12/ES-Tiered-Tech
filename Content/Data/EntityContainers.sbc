@@ -1,79 +1,140 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <EntityContainers>
+	<EntityContainers>
 
-        <Container>
-            <Id>
-                <TypeId>SafeZoneBlock</TypeId>
-                <SubtypeId>SafeZoneBlock2x</SubtypeId>
-            </Id>
-            <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlock2x"/>
-            </DefaultComponents>
-        </Container>
+		<Container>
+			<Id>
+				<TypeId>SafeZoneBlock</TypeId>
+				<SubtypeId>SafeZoneBlock2x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlock2x"/>
+			</DefaultComponents>
+		</Container>
 
-        <Container>
-            <Id>
-                <TypeId>SafeZoneBlock</TypeId>
-                <SubtypeId>SafeZoneBlock4x</SubtypeId>
-            </Id>
-            <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlock4x"/>
-            </DefaultComponents>
-        </Container>
+		<Container>
+			<Id>
+				<TypeId>SafeZoneBlock</TypeId>
+				<SubtypeId>SafeZoneBlock4x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlock4x"/>
+			</DefaultComponents>
+		</Container>
 
-        <Container>
-            <Id>
-                <TypeId>SafeZoneBlock</TypeId>
-                <SubtypeId>SafeZoneBlock8x</SubtypeId>
-            </Id>
-            <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlock8x"/>
-            </DefaultComponents>
-        </Container>
-        
-    </EntityContainers>
+		<Container>
+			<Id>
+				<TypeId>SafeZoneBlock</TypeId>
+				<SubtypeId>SafeZoneBlock8x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlock8x"/>
+			</DefaultComponents>
+		</Container>
 
-    <EntityComponents>
+		<!-- Ore Detector Reskin -->
+		<Container>
+			<Id>
+				<TypeId>OreDetector</TypeId>
+				<SubtypeId>LargeOreDetectorReskin2x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="OreDetectorReskinLarge" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
 
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>SafeZoneBlock2x</SubtypeId>
-            </Id>
-            <Volume>0.005</Volume>
-            <InputConstraint IsWhitelist="true">
-                <Entry>
-                    <TypeId>Component</TypeId>
-                    <SubtypeId>ZoneChip</SubtypeId>
-                </Entry>
-            </InputConstraint>
-        </EntityComponent>
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>SafeZoneBlock4x</SubtypeId>
-            </Id>
-            <Volume>0.005</Volume>
-            <InputConstraint IsWhitelist="true">
-                <Entry>
-                    <TypeId>Component</TypeId>
-                    <SubtypeId>ZoneChip</SubtypeId>
-                </Entry>
-            </InputConstraint>
-        </EntityComponent>
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>SafeZoneBlock8x</SubtypeId>
-            </Id>
-            <Volume>0.005</Volume>
-            <InputConstraint IsWhitelist="true">
-                <Entry>
-                    <TypeId>Component</TypeId>
-                    <SubtypeId>ZoneChip</SubtypeId>
-                </Entry>
-            </InputConstraint>
-        </EntityComponent>
-    </EntityComponents>
+		<Container>
+			<Id>
+				<TypeId>OreDetector</TypeId>
+				<SubtypeId>SmallOreDetectorReskin2x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="OreDetectorReskinSmall" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>OreDetector</TypeId>
+				<SubtypeId>LargeOreDetectorReskin4x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="OreDetectorReskinLarge" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>OreDetector</TypeId>
+				<SubtypeId>SmallOreDetectorReskin4x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="OreDetectorReskinSmall" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>OreDetector</TypeId>
+				<SubtypeId>LargeOreDetectorReskin8x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="OreDetectorReskinLarge" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>OreDetector</TypeId>
+				<SubtypeId>SmallOreDetectorReskin8x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_RotatingSubpartComponent" SubtypeId="OreDetectorReskinSmall" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+
+	</EntityContainers>
+
+	<EntityComponents>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SafeZoneBlock2x</SubtypeId>
+			</Id>
+			<Volume>0.005</Volume>
+			<InputConstraint IsWhitelist="true">
+				<Entry>
+					<TypeId>Component</TypeId>
+					<SubtypeId>ZoneChip</SubtypeId>
+				</Entry>
+			</InputConstraint>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SafeZoneBlock4x</SubtypeId>
+			</Id>
+			<Volume>0.005</Volume>
+			<InputConstraint IsWhitelist="true">
+				<Entry>
+					<TypeId>Component</TypeId>
+					<SubtypeId>ZoneChip</SubtypeId>
+				</Entry>
+			</InputConstraint>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SafeZoneBlock8x</SubtypeId>
+			</Id>
+			<Volume>0.005</Volume>
+			<InputConstraint IsWhitelist="true">
+				<Entry>
+					<TypeId>Component</TypeId>
+					<SubtypeId>ZoneChip</SubtypeId>
+				</Entry>
+			</InputConstraint>
+		</EntityComponent>
+	</EntityComponents>
 </Definitions>

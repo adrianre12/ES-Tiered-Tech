@@ -590,7 +590,14 @@
 				<Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector8x" />
 
 				<Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetectorReskin" />
+				<Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetectorReskin2x" />
+				<Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetectorReskin4x" />
+				<Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetectorReskin8x" />
+				
 				<Block Type="MyObjectBuilder_OreDetector" Subtype="SmallOreDetectorReskin" />
+				<Block Type="MyObjectBuilder_OreDetector" Subtype="SmallOreDetectorReskin2x" />
+				<Block Type="MyObjectBuilder_OreDetector" Subtype="SmallOreDetectorReskin4x" />
+				<Block Type="MyObjectBuilder_OreDetector" Subtype="SmallOreDetectorReskin8x" />
 			</Blocks>
 		</BlockVariantGroup>
 

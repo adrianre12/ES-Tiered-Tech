@@ -150,4 +150,13 @@
   <data name="Description_AdminAssembler" xml:space="preserve">
     <value>Assembler for Admin use</value>
   </data>
+  <data name="DisplayName_Block_OreDetectorReskin2x" xml:space="preserve">
+    <value>Enhanced Ore Detector Type II</value>
+  </data>
+  <data name="DisplayName_Block_OreDetectorReskin4x" xml:space="preserve">
+    <value>Proficient Ore Detector Type II</value>
+  </data>
+  <data name="DisplayName_Block_OreDetectorReskin8x" xml:space="preserve">
+    <value>Elite Ore Detector Type II</value>
+  </data>
 </root>

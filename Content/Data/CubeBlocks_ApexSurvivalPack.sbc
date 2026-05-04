@@ -1272,6 +1272,319 @@
 			<IsAirTight>false</IsAirTight>
 			<DLC>ApexSurvival</DLC>
 		</Definition>
+		
+		<!--Ore Detector-->
+		<!--Tier 2-->
+		<Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+			<Id>
+				<TypeId>OreDetector</TypeId>
+				<SubtypeId>LargeOreDetectorReskin2x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_OreDetectorReskin2x</DisplayName>
+			<Icon>Textures\OreDetectorReskin2x.dds</Icon>
+			<Description>Description_OreDetector</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<PlaceDecals>false</PlaceDecals>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\OreDetectorReskin.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30" />
+				<Component Subtype="Construction" Count="40" />
+				<Component Subtype="Motor" Count="5" />
+				<Component Subtype="Computer" Count="25" />
+				<Component Subtype="Detector" Count="20" />
+				<Component Subtype="SteelPlate" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="Detector" Index="0" />
+			<Center x="0" y="0" z="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorReskinConstruction1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorReskinConstruction2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorReskinConstruction3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>OreDetectorReskin2x</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>X</MirroringY>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<MaximumRange>400</MaximumRange>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>40</PCU>
+			<DLC>ApexSurvival</DLC>
+		</Definition>
 
+		<Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+			<Id>
+				<TypeId>OreDetector</TypeId>
+				<SubtypeId>SmallOreDetectorReskin2x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_OreDetectorReskin2x</DisplayName>
+			<Icon>Textures\OreDetectorReskinSmall2x.dds</Icon>
+			<Description>Description_OreDetector</Description>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<PlaceDecals>false</PlaceDecals>
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\OreDetectorReskinSmall.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+				<Component Subtype="Construction" Count="2" />
+				<Component Subtype="Motor" Count="1" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="Detector" Count="1" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="Detector" Index="0" />
+			<Center x="0" y="0" z="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorReskinSmall_Construction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorReskinSmall_Construction_2.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>OreDetectorReskin2x</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>14</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<MaximumRange>400</MaximumRange>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>40</PCU>
+			<DLC>ApexSurvival</DLC>
+		</Definition>
+
+		<!--Tier 4-->
+		<Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+			<Id>
+				<TypeId>OreDetector</TypeId>
+				<SubtypeId>LargeOreDetectorReskin4x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_OreDetectorReskin4x</DisplayName>
+			<Icon>Textures\OreDetectorReskin4x.dds</Icon>
+			<Description>Description_OreDetector</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<PlaceDecals>false</PlaceDecals>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\OreDetectorReskin.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30" />
+				<Component Subtype="Construction" Count="40" />
+				<Component Subtype="Motor" Count="5" />
+				<Component Subtype="Computer" Count="25" />
+				<Component Subtype="Detector" Count="20" />
+				<Component Subtype="SteelPlate" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="Detector" Index="0" />
+			<Center x="0" y="0" z="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorReskinConstruction1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorReskinConstruction2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorReskinConstruction3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>OreDetectorReskin4x</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>X</MirroringY>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<MaximumRange>650</MaximumRange>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>40</PCU>
+			<DLC>ApexSurvival</DLC>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+			<Id>
+				<TypeId>OreDetector</TypeId>
+				<SubtypeId>SmallOreDetectorReskin4x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_OreDetectorReskin4x</DisplayName>
+			<Icon>Textures\OreDetectorReskinSmall4x.dds</Icon>
+			<Description>Description_OreDetector</Description>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<PlaceDecals>false</PlaceDecals>
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\OreDetectorReskinSmall.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+				<Component Subtype="Construction" Count="2" />
+				<Component Subtype="Motor" Count="1" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="Detector" Count="1" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="Detector" Index="0" />
+			<Center x="0" y="0" z="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorReskinSmall_Construction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorReskinSmall_Construction_2.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>OreDetectorReskin4x</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>14</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<MaximumRange>650</MaximumRange>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>40</PCU>
+			<DLC>ApexSurvival</DLC>
+		</Definition>
+
+		<!--Tier 8-->
+		<Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+			<Id>
+				<TypeId>OreDetector</TypeId>
+				<SubtypeId>LargeOreDetectorReskin8x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_OreDetectorReskin8x</DisplayName>
+			<Icon>Textures\OreDetectorReskin8x.dds</Icon>
+			<Description>Description_OreDetector</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<PlaceDecals>false</PlaceDecals>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\OreDetectorReskin.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30" />
+				<Component Subtype="Construction" Count="40" />
+				<Component Subtype="Motor" Count="5" />
+				<Component Subtype="Computer" Count="25" />
+				<Component Subtype="Detector" Count="20" />
+				<Component Subtype="SteelPlate" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="Detector" Index="0" />
+			<Center x="0" y="0" z="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorReskinConstruction1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorReskinConstruction2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorReskinConstruction3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>OreDetectorReskin8x</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>X</MirroringY>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<MaximumRange>1000</MaximumRange>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>40</PCU>
+			<DLC>ApexSurvival</DLC>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+			<Id>
+				<TypeId>OreDetector</TypeId>
+				<SubtypeId>SmallOreDetectorReskin8x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_OreDetectorReskin8x</DisplayName>
+			<Icon>Textures\OreDetectorReskinSmall8x.dds</Icon>
+			<Description>Description_OreDetector</Description>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<PlaceDecals>false</PlaceDecals>
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\OreDetectorReskinSmall.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+				<Component Subtype="Construction" Count="2" />
+				<Component Subtype="Motor" Count="1" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="Detector" Count="1" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="Detector" Index="0" />
+			<Center x="0" y="0" z="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorReskinSmall_Construction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorReskinSmall_Construction_2.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>OreDetectorReskin8x</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>14</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<MaximumRange>1000</MaximumRange>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>40</PCU>
+			<DLC>ApexSurvival</DLC>
+		</Definition>
+		
 	</CubeBlocks>
 </Definitions>
