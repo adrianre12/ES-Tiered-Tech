@@ -1290,12 +1290,13 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\OreDetectorReskin.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="30" />
-				<Component Subtype="Construction" Count="40" />
-				<Component Subtype="Motor" Count="5" />
-				<Component Subtype="Computer" Count="25" />
-				<Component Subtype="Detector" Count="20" />
-				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="Tech2x" Count="40"/>
+				<Component Subtype="SteelPlate" Count="45"/>
+				<Component Subtype="Construction" Count="60"/>
+				<Component Subtype="Motor" Count="8"/>
+				<Component Subtype="Computer" Count="38"/>
+				<Component Subtype="Detector" Count="30"/>
+				<Component Subtype="SteelPlate" Count="30"/>
 			</Components>
 			<CriticalComponent Subtype="Detector" Index="0" />
 			<Center x="0" y="0" z="0" />
@@ -1342,12 +1343,13 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Small\OreDetectorReskinSmall.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="1" />
-				<Component Subtype="Construction" Count="2" />
-				<Component Subtype="Motor" Count="1" />
-				<Component Subtype="Computer" Count="1" />
-				<Component Subtype="Detector" Count="1" />
-				<Component Subtype="SteelPlate" Count="2" />
+				<Component Subtype="Tech2x" Count="12"/>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="Construction" Count="3"/>
+				<Component Subtype="Motor" Count="2"/>
+				<Component Subtype="Computer" Count="2"/>
+				<Component Subtype="Detector" Count="2"/>
+				<Component Subtype="SteelPlate" Count="3"/>
 			</Components>
 			<CriticalComponent Subtype="Detector" Index="0" />
 			<Center x="0" y="0" z="0" />
@@ -1394,12 +1396,13 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\OreDetectorReskin.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="30" />
-				<Component Subtype="Construction" Count="40" />
-				<Component Subtype="Motor" Count="5" />
-				<Component Subtype="Computer" Count="25" />
-				<Component Subtype="Detector" Count="20" />
-				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="Tech4x" Count="40"/>
+				<Component Subtype="SteelPlate" Count="68"/>
+				<Component Subtype="Construction" Count="90"/>
+				<Component Subtype="Motor" Count="12"/>
+				<Component Subtype="Computer" Count="57"/>
+				<Component Subtype="Detector" Count="45"/>
+				<Component Subtype="SteelPlate" Count="45"/>
 			</Components>
 			<CriticalComponent Subtype="Detector" Index="0" />
 			<Center x="0" y="0" z="0" />
@@ -1446,12 +1449,13 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Small\OreDetectorReskinSmall.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="1" />
-				<Component Subtype="Construction" Count="2" />
-				<Component Subtype="Motor" Count="1" />
-				<Component Subtype="Computer" Count="1" />
-				<Component Subtype="Detector" Count="1" />
-				<Component Subtype="SteelPlate" Count="2" />
+				<Component Subtype="Tech4x" Count="12"/>
+				<Component Subtype="SteelPlate" Count="3"/>
+				<Component Subtype="Construction" Count="5"/>
+				<Component Subtype="Motor" Count="3"/>
+				<Component Subtype="Computer" Count="3"/>
+				<Component Subtype="Detector" Count="3"/>
+				<Component Subtype="SteelPlate" Count="5"/>
 			</Components>
 			<CriticalComponent Subtype="Detector" Index="0" />
 			<Center x="0" y="0" z="0" />
@@ -1498,12 +1502,13 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Large\OreDetectorReskin.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="30" />
-				<Component Subtype="Construction" Count="40" />
-				<Component Subtype="Motor" Count="5" />
-				<Component Subtype="Computer" Count="25" />
-				<Component Subtype="Detector" Count="20" />
-				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="Tech8x" Count="40"/>
+				<Component Subtype="SteelPlate" Count="102"/>
+				<Component Subtype="Construction" Count="135"/>
+				<Component Subtype="Motor" Count="17"/>
+				<Component Subtype="Computer" Count="85"/>
+				<Component Subtype="Detector" Count="68"/>
+				<Component Subtype="SteelPlate" Count="68"/>
 			</Components>
 			<CriticalComponent Subtype="Detector" Index="0" />
 			<Center x="0" y="0" z="0" />
@@ -1550,12 +1555,13 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\Small\OreDetectorReskinSmall.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="1" />
-				<Component Subtype="Construction" Count="2" />
-				<Component Subtype="Motor" Count="1" />
-				<Component Subtype="Computer" Count="1" />
-				<Component Subtype="Detector" Count="1" />
-				<Component Subtype="SteelPlate" Count="2" />
+				<Component Subtype="Tech8x" Count="12"/>
+				<Component Subtype="SteelPlate" Count="4"/>
+				<Component Subtype="Construction" Count="7"/>
+				<Component Subtype="Motor" Count="4"/>
+				<Component Subtype="Computer" Count="4"/>
+				<Component Subtype="Detector" Count="4"/>
+				<Component Subtype="SteelPlate" Count="7"/>
 			</Components>
 			<CriticalComponent Subtype="Detector" Index="0" />
 			<Center x="0" y="0" z="0" />
