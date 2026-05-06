@@ -159,4 +159,31 @@
   <data name="DisplayName_Block_OreDetectorReskin8x" xml:space="preserve">
     <value>Elite Ore Detector Type II</value>
   </data>
+  <data name="DisplayName_Block_BulkCargoContainerA2x" xml:space="preserve">
+    <value>Enhanced Bulk Cargo Container A</value>
+  </data>
+  <data name="DisplayName_Block_BulkCargoContainerB2x" xml:space="preserve">
+    <value>Enhanced Bulk Cargo Container B</value>
+  </data>
+  <data name="DisplayName_Block_BulkCargoContainerC2x" xml:space="preserve">
+    <value>Enhanced Bulk Cargo Container C</value>
+  </data>
+    <data name="DisplayName_Block_BulkCargoContainerA4x" xml:space="preserve">
+    <value>Proficient Bulk Cargo Container A</value>
+  </data>
+    <data name="DisplayName_Block_BulkCargoContainerB4x" xml:space="preserve">
+    <value>Proficient Bulk Cargo Container B</value>
+  </data>
+    <data name="DisplayName_Block_BulkCargoContainerC4x" xml:space="preserve">
+    <value>Proficient Bulk Cargo Container C</value>
+  </data>
+  <data name="DisplayName_Block_BulkCargoContainerA8x" xml:space="preserve">
+    <value>Elite Bulk Cargo Container A</value>
+  </data>
+  <data name="DisplayName_Block_BulkCargoContainerB8x" xml:space="preserve">
+    <value>Elite Bulk Cargo Container B</value>
+  </data>
+  <data name="DisplayName_Block_BulkCargoContainerC8x" xml:space="preserve">
+    <value>Elite Bulk Cargo Container C</value>
+  </data>
 </root>
