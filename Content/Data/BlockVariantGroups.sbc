@@ -665,6 +665,21 @@
 				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer2x" />
 				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer4x" />
 				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer8x" />
+
+				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockBulkContainerA" />
+				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockBulkContainerA2x" />
+				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockBulkContainerA4x" />
+				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockBulkContainerA8x" />
+
+				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockBulkContainerB" />
+				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockBulkContainerB2x" />
+				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockBulkContainerB4x" />
+				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockBulkContainerB8x" />
+
+				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockBulkContainerC" />
+				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockBulkContainerC2x" />
+				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockBulkContainerC4x" />
+				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockBulkContainerC8x" />
 			</Blocks>
 		</BlockVariantGroup>
 
