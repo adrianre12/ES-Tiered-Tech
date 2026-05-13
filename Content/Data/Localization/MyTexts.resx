@@ -168,13 +168,13 @@
   <data name="DisplayName_Block_BulkCargoContainerC2x" xml:space="preserve">
     <value>Enhanced Bulk Cargo Container C</value>
   </data>
-    <data name="DisplayName_Block_BulkCargoContainerA4x" xml:space="preserve">
+  <data name="DisplayName_Block_BulkCargoContainerA4x" xml:space="preserve">
     <value>Proficient Bulk Cargo Container A</value>
   </data>
-    <data name="DisplayName_Block_BulkCargoContainerB4x" xml:space="preserve">
+  <data name="DisplayName_Block_BulkCargoContainerB4x" xml:space="preserve">
     <value>Proficient Bulk Cargo Container B</value>
   </data>
-    <data name="DisplayName_Block_BulkCargoContainerC4x" xml:space="preserve">
+  <data name="DisplayName_Block_BulkCargoContainerC4x" xml:space="preserve">
     <value>Proficient Bulk Cargo Container C</value>
   </data>
   <data name="DisplayName_Block_BulkCargoContainerA8x" xml:space="preserve">
@@ -185,5 +185,14 @@
   </data>
   <data name="DisplayName_Block_BulkCargoContainerC8x" xml:space="preserve">
     <value>Elite Bulk Cargo Container C</value>
+  </data>
+  <data name="DisplayName_Block_SafeZone2x" xml:space="preserve">
+    <value>Enhanced Safe Zone</value>
+  </data>
+  <data name="DisplayName_Block_SafeZone4x" xml:space="preserve">
+    <value>Proficient Safe Zone</value>
+  </data>
+  <data name="DisplayName_Block_SafeZone8x" xml:space="preserve">
+    <value>Elite Safe Zone</value>
   </data>
 </root>

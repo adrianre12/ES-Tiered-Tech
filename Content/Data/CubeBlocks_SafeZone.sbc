@@ -75,13 +75,13 @@
 		</Definition>
 
 
-		<!--        Tier 2-->
+		<!--Tier 2-->
 		<Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
 			<Id>
 				<TypeId>SafeZoneBlock</TypeId>
 				<SubtypeId>SafeZoneBlock2x</SubtypeId>
 			</Id>
-			<DisplayName>Enhanced SafeZone</DisplayName>
+			<DisplayName>DisplayName_Block_SafeZone2x</DisplayName>
 			<Icon>Textures\SafeZoneBlock2x.dds</Icon>
 			<Description>Description_SafeZone</Description>
 			<CubeSize>Large</CubeSize>
@@ -151,13 +151,13 @@
 		</Definition>
 
 
-		<!--        Tier 4-->
+		<!--Tier 4-->
 		<Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
 			<Id>
 				<TypeId>SafeZoneBlock</TypeId>
 				<SubtypeId>SafeZoneBlock4x</SubtypeId>
 			</Id>
-			<DisplayName>Proficient SafeZone</DisplayName>
+			<DisplayName>DisplayName_Block_SafeZone4x</DisplayName>
 			<Icon>Textures\SafeZoneBlock4x.dds</Icon>
 			<Description>Description_SafeZone</Description>
 			<CubeSize>Large</CubeSize>
@@ -227,13 +227,13 @@
 		</Definition>
 
 
-		<!--        Tier 8-->
+		<!--Tier 8-->
 		<Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
 			<Id>
 				<TypeId>SafeZoneBlock</TypeId>
 				<SubtypeId>SafeZoneBlock8x</SubtypeId>
 			</Id>
-			<DisplayName>Elite SafeZone</DisplayName>
+			<DisplayName>DisplayName_Block_SafeZone8x</DisplayName>
 			<Icon>Textures\SafeZoneBlock8x.dds</Icon>
 			<Description>Description_SafeZone</Description>
 			<CubeSize>Large</CubeSize>
