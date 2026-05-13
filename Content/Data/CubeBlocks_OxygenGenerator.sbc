@@ -138,7 +138,7 @@
             <EdgeType>Light</EdgeType>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <IceConsumptionPerSecond>40</IceConsumptionPerSecond>
+            <IceConsumptionPerSecond>15</IceConsumptionPerSecond>
             <InventoryMaxVolume>1.5</InventoryMaxVolume>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <InventorySize>
@@ -231,7 +231,7 @@
             <BuildTimeSeconds>68</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <IceConsumptionPerSecond>200</IceConsumptionPerSecond>
+            <IceConsumptionPerSecond>133</IceConsumptionPerSecond>
             <InventoryMaxVolume>7.5</InventoryMaxVolume>
             <InventorySize>
                 <X>2</X>
@@ -323,7 +323,7 @@
             <EdgeType>Light</EdgeType>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <IceConsumptionPerSecond>80</IceConsumptionPerSecond>
+            <IceConsumptionPerSecond>27</IceConsumptionPerSecond>
             <InventoryMaxVolume>1.875</InventoryMaxVolume>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <InventorySize>
@@ -415,7 +415,7 @@
             <BuildTimeSeconds>102</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <IceConsumptionPerSecond>400</IceConsumptionPerSecond>
+            <IceConsumptionPerSecond>178</IceConsumptionPerSecond>
             <InventoryMaxVolume>9.375</InventoryMaxVolume>
             <InventorySize>
                 <X>2</X>
@@ -508,7 +508,7 @@
             <EdgeType>Light</EdgeType>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <IceConsumptionPerSecond>160</IceConsumptionPerSecond>
+            <IceConsumptionPerSecond>36</IceConsumptionPerSecond>
             <InventoryMaxVolume>2.3438</InventoryMaxVolume>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <InventorySize>
