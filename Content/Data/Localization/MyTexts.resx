@@ -222,4 +222,31 @@
   <data name="DisplayName_Block_OxygenGeneratorLab8x" xml:space="preserve">
     <value>Elite Lab O2/H2 Generator</value>
   </data>
+  <data name="DisplayName_Block_HydrogenTankSmallLab2x" xml:space="preserve">
+    <value>Enhanced Lab Small Hydrogen Tank</value>
+  </data>
+  <data name="DisplayName_Block_HydrogenTankLab2x" xml:space="preserve">
+    <value>Enhanced Lab Hydrogen Tank</value>
+  </data>
+  <data name="DisplayName_Block_SmallOxygenTankLab2x" xml:space="preserve">
+    <value>Enhanced Lab Small Oxygen Tank</value>
+  </data>
+  <data name="DisplayName_Block_HydrogenTankSmallLab4x" xml:space="preserve">
+    <value>Proficient Lab Small Hydrogen Tank</value>
+  </data>
+  <data name="DisplayName_Block_HydrogenTankLab4x" xml:space="preserve">
+    <value>Proficient Lab Hydrogen Tank</value>
+  </data>
+  <data name="DisplayName_Block_SmallOxygenTankLab4x" xml:space="preserve">
+    <value>Proficient Lab Small Oxygen Tank</value>
+  </data>
+  <data name="DisplayName_Block_HydrogenTankSmallLab8x" xml:space="preserve">
+    <value>Elite Lab Small Hydrogen Tank</value>
+  </data>
+  <data name="DisplayName_Block_HydrogenTankLab8x" xml:space="preserve">
+    <value>Elite Lab Hydrogen Tank</value>
+  </data>
+  <data name="DisplayName_Block_SmallOxygenTankLab8x" xml:space="preserve">
+    <value>Elite Lab Small Oxygen Tank</value>
+  </data>
 </root>

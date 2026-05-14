@@ -261,6 +261,7 @@
 				<unsignedInt>600</unsignedInt>
 			</TieredUpdateTimes>
 		</Definition>
+		
 		<Definition xsi:type="MyObjectBuilder_GasTankDefinition">
 			<Id>
 				<TypeId>OxygenTank</TypeId>
@@ -342,7 +343,7 @@
 		</Definition>
 
 
-<!--        Tier 4-->
+		<!--Tier 4-->
 		<Definition xsi:type="MyObjectBuilder_GasTankDefinition">
 			<Id>
 				<TypeId>OxygenTank</TypeId>

@@ -749,6 +749,9 @@
 				<Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallLargeOxygenTank8x" />
 
 				<Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockOxygenTankLab" />
+				<Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockOxygenTankLab2x" />
+				<Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockOxygenTankLab4x" />
+				<Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockOxygenTankLab8x" />
 
 				<Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank" />
 				<Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank2x" />
@@ -759,10 +762,16 @@
 				<Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall2x" />
 				<Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall4x" />
 				<Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall8x" />
-				
+
 				<Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmallLab" />
+				<Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmallLab2x" />
+				<Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmallLab4x" />
+				<Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmallLab8x" />
 
 				<Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankLab" />
+				<Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankLab2x" />
+				<Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankLab4x" />
+				<Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankLab8x" />
 
 				<Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank" />
 				<Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank2x" />
