@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<CubeBlocks>
-
+		<!--Added Large O2 tank-->
 		<Definition xsi:type="MyObjectBuilder_GasTankDefinition">
 			<Id>
 				<TypeId>OxygenTank</TypeId>
@@ -73,6 +73,7 @@
 			<PCU>25</PCU>
 		</Definition>
 
+		<!--Added Large O2 tank-->
 		<Definition xsi:type="MyObjectBuilder_GasTankDefinition">
 			<Id>
 				<TypeId>OxygenTank</TypeId>
