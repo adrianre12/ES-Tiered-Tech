@@ -195,4 +195,13 @@
   <data name="DisplayName_Block_SafeZone8x" xml:space="preserve">
     <value>Elite Safe Zone</value>
   </data>
+  <data name="DisplayName_Block_SafeZoneReskin2x" xml:space="preserve">
+    <value>Enhanced Safe Zone Type II</value>
+  </data>
+  <data name="DisplayName_Block_SafeZoneReskin4x" xml:space="preserve">
+    <value>Proficient Safe Zone Type II</value>
+  </data>
+  <data name="DisplayName_Block_SafeZoneReskin8x" xml:space="preserve">
+    <value>Elite Safe Zone Type II</value>
+  </data>
 </root>
