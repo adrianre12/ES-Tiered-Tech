@@ -704,6 +704,9 @@
 				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorLarge8x" />
 
 				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="LargeBlockOxygenGeneratorLab" />
+				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="LargeBlockOxygenGeneratorLab2x" />
+				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="LargeBlockOxygenGeneratorLab4x" />
+				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="LargeBlockOxygenGeneratorLab8x" />
 
 				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorSmall" />
 				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorSmall2x" />
@@ -711,6 +714,9 @@
 				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorSmall8x" />
 
 				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="SmallBlockOxygenGeneratorLab" />
+				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="SmallBlockOxygenGeneratorLab2x" />
+				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="SmallBlockOxygenGeneratorLab4x" />
+				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="SmallBlockOxygenGeneratorLab8x" />
 			</Blocks>
 		</BlockVariantGroup>		
 		

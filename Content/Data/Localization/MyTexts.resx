@@ -204,4 +204,22 @@
   <data name="DisplayName_Block_SafeZoneReskin8x" xml:space="preserve">
     <value>Elite Safe Zone Type II</value>
   </data>
+  <data name="DisplayName_Block_OxygenGenerator2x" xml:space="preserve">
+    <value>Enhanced O2/H2 Generator</value>
+  </data>
+  <data name="DisplayName_Block_OxygenGenerator4x" xml:space="preserve">
+    <value>Proficient O2/H2 Generator</value>
+  </data>
+  <data name="DisplayName_Block_OxygenGenerator8x" xml:space="preserve">
+    <value>Elite O2/H2 Generator</value>
+  </data>
+  <data name="DisplayName_Block_OxygenGeneratorLab2x" xml:space="preserve">
+    <value>Enhanced Lab O2/H2 Generator</value>
+  </data>
+  <data name="DisplayName_Block_OxygenGeneratorLab4x" xml:space="preserve">
+    <value>Proficient Lab O2/H2 Generator</value>
+  </data>
+  <data name="DisplayName_Block_OxygenGeneratorLab8x" xml:space="preserve">
+    <value>Elite Lab O2/H2 Generator</value>
+  </data>
 </root>
