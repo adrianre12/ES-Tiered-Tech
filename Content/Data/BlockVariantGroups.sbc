@@ -619,8 +619,16 @@
 				<Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon8x" />
 				
 				<Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin" />
-				
+				<Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin2x" />
+				<Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin4x" />
+				<Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin8x" />
+
+
 				<Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeaconReskin" />
+				<Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeaconReskin2x" />
+				<Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeaconReskin4x" />
+				<Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeaconReskin8x" />
+
 			</Blocks>
 		</BlockVariantGroup>
 		
