@@ -32,6 +32,36 @@
 			</DefaultComponents>
 		</Container>
 
+		<Container>
+			<Id>
+				<TypeId>SafeZoneBlock</TypeId>
+				<SubtypeId>SafeZoneBlockReskin2x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlock"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>SafeZoneBlock</TypeId>
+				<SubtypeId>SafeZoneBlockReskin4x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlock"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>SafeZoneBlock</TypeId>
+				<SubtypeId>SafeZoneBlockReskin8x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlock"/>
+			</DefaultComponents>
+		</Container>
+
 		<!-- Ore Detector Reskin -->
 		<Container>
 			<Id>

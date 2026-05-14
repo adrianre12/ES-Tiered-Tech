@@ -793,6 +793,10 @@
 				<Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock2x" />
 				<Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock4x" />
 				<Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock8x" />
+				<Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlockReskin" />
+				<Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlockReskin2x" />
+				<Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlockReskin4x" />
+				<Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlockReskin8x" />
 			</Blocks>
 		</BlockVariantGroup>
 
