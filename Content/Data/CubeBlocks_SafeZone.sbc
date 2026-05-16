@@ -503,7 +503,7 @@
 			<MaxSafeZonePowerDrainkW>40000</MaxSafeZonePowerDrainkW>
 			<MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
 			<SafeZoneUpkeep>1</SafeZoneUpkeep>
-			<SafeZoneUpkeepTimeM>80</SafeZoneUpkeepTimeM>
+			<SafeZoneUpkeepTimeM>100</SafeZoneUpkeepTimeM>
 			<FillRatio>0.5</FillRatio>
 			<ItemPullPerRequest>1</ItemPullPerRequest>
 
@@ -574,7 +574,7 @@
 			<MaxSafeZonePowerDrainkW>30000</MaxSafeZonePowerDrainkW>
 			<MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
 			<SafeZoneUpkeep>1</SafeZoneUpkeep>
-			<SafeZoneUpkeepTimeM>80</SafeZoneUpkeepTimeM>
+			<SafeZoneUpkeepTimeM>120</SafeZoneUpkeepTimeM>
 			<FillRatio>0.5</FillRatio>
 			<ItemPullPerRequest>1</ItemPullPerRequest>
 
