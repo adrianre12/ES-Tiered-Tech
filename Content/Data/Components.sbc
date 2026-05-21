@@ -133,7 +133,8 @@
 			<MaxIntegrity>30</MaxIntegrity>
 			<DropProbability>0.5</DropProbability>
 			<Health>18</Health>
-			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimalPricePerUnit>-1</MinimalPricePerUnit>
+			<CanPlayerOrder>true</CanPlayerOrder>
 		</Component>
 
 	</Components>
