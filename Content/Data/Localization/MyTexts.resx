@@ -261,4 +261,13 @@
   <data name="DisplayName_Block_LargeOxygenTank8x" xml:space="preserve">
     <value>Elite Large Oxygen Tank</value>
   </data>
+  <data name="DisplayName_Block_SurvivalKitReskin2x" xml:space="preserve">
+    <value>Enhanced Survival Kit Type II</value>
+  </data>
+  <data name="DisplayName_Block_SurvivalKitReskin4x" xml:space="preserve">
+    <value>Proficient Survival Kit Type II</value>
+  </data>
+  <data name="DisplayName_Block_SurvivalKitReskin8x" xml:space="preserve">
+    <value>Elite Survival Kit Type II</value>
+  </data>
 </root>

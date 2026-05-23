@@ -402,15 +402,21 @@
 				<Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge2x" />
 				<Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge4x" />
 				<Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge8x" />
-				
+
 				<Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLargeReskin" />
-				
+				<Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLargeReskin2x" />
+				<Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLargeReskin4x" />
+				<Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLargeReskin8x" />
+
 				<Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit" />
 				<Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit2x" />
 				<Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit4x" />
 				<Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit8x" />
-				
+
 				<Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitSmallReskin" />
+				<Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitSmallReskin2x" />
+				<Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitSmallReskin4x" />
+				<Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitSmallReskin8x" />
 			</Blocks>
 		</BlockVariantGroup>
 

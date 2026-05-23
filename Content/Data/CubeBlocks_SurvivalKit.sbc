@@ -987,7 +987,7 @@
 				<Component Subtype="SteelPlate" Count="3" />
 				<Component Subtype="Construction" Count="7" />
 				<Component Subtype="Medical" Count="10" />
-				<Component Subtype="Motor" Count="`4" />
+				<Component Subtype="Motor" Count="4" />
 				<Component Subtype="Display" Count="3" />
 				<Component Subtype="Computer" Count="17" />
 				<Component Subtype="SteelPlate" Count="17" />
