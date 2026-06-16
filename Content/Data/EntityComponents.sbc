@@ -42,6 +42,62 @@
 				</Entry>
 			</InputConstraint>
 		</EntityComponent>
+
+		<!--ShipDrills-->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>ShipDrillSmall2x</SubtypeId>
+			</Id>
+			<Volume>5.062</Volume>
+			<CanSend>true</CanSend>
+		</EntityComponent>
+		
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>ShipDrillLarge2x</SubtypeId>
+			</Id>
+			<Volume>35.1555</Volume>
+			<CanSend>true</CanSend>
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>ShipDrillSmall4x</SubtypeId>
+			</Id>
+			<Volume>7.594</Volume>
+			<CanSend>true</CanSend>
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>ShipDrillLarge4x</SubtypeId>
+			</Id>
+			<Volume>52.733</Volume>
+			<CanSend>true</CanSend>
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>ShipDrillSmall8x</SubtypeId>
+			</Id>
+			<Volume>11.39</Volume>
+			<CanSend>true</CanSend>
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>ShipDrillLarge8x</SubtypeId>
+			</Id>
+			<Volume>79.099</Volume>
+			<CanSend>true</CanSend>
+		</EntityComponent>
+		
 		
 	</EntityComponents>
 </Definitions>

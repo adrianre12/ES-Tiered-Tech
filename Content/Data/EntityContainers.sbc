@@ -287,6 +287,128 @@
 			</DefaultComponents>
 		</Container>
 		
+		<!--ShipDrills-->
+		<Container>
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>SmallBlockDrill2x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="ShipDrillSmall2x" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>LargeBlockDrill2x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="ShipDrillLarge2x" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>SmallBlockDrill4x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="ShipDrillSmall4x" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>LargeBlockDrill4x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="ShipDrillLarge4x" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>SmallBlockDrill8x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="ShipDrillSmall8x" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>LargeBlockDrill8x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="ShipDrillLarge8x" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+		
+		<!--ShipDrillReskin-->
+		<Container>
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>SmallBlockDrillReskin2x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="ShipDrillSmall2x" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>LargeBlockDrillReskin2x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="ShipDrillLarge2x" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>SmallBlockDrillReskin4x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="ShipDrillSmall4x" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>LargeBlockDrillReskin4x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="ShipDrillLarge4x" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>SmallBlockDrillReskin8x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="ShipDrillSmall8x" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>LargeBlockDrillReskin8x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="ShipDrillLarge8x" ForceCreate="true"/>
+			</DefaultComponents>
+		</Container>
+		
 	</EntityContainers>
 
 </Definitions>
