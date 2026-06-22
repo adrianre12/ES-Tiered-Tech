@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<!--Tier 2-->
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>SmallBlockModularContainer2x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_ModularCargoContainer2x</DisplayName>
+			<Icon>Textures\CargoContainerReskin_Small2x.dds</Icon>
+			<Description>Description_MediumCargoContainer</Description>
+			<CubeSize>Small</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="7" y="3" z="5" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\CargoContainerReskin_Small.mwm</Model>
+			<Components>
+				<Component Subtype="Tech2x" Count="7"/>
+				<Component Subtype="InteriorPlate" Count="70" />
+				<Component Subtype="Construction" Count="40" />
+				<Component Subtype="Computer" Count="10" />
+				<Component Subtype="Motor" Count="12" />
+				<Component Subtype="Display" Count="2" />
+				<Component Subtype="InteriorPlate" Count="30" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Right" StartX="1" StartY="0" EndX="4" EndY="3" />
+				<MountPoint Side="Right" StartX="0" StartY="0.5" EndX="0.2" EndY="2.5" />
+				<MountPoint Side="Right" StartX="4.8" StartY="0.5" EndX="5" EndY="2.5" />
+				<MountPoint Side="Left" StartX="1" StartY="0" EndX="4" EndY="3" />
+				<MountPoint Side="Left" StartX="0" StartY="0.5" EndX="0.2" EndY="2.5" />
+				<MountPoint Side="Left" StartX="4.8" StartY="0.5" EndX="5" EndY="2.5" />
+				<MountPoint Side="Top" StartX="0" StartY="1" EndX="7" EndY="4" />
+				<MountPoint Side="Bottom" StartX="0" StartY="1" EndX="7" EndY="4" />
+				<MountPoint Side="Front" StartX="0" StartY="0.5" EndX="7" EndY="2.5" />
+				<MountPoint Side="Back" StartX="0" StartY="0.5" EndX="7" EndY="2.5" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerReskin_SmallConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerReskin_SmallConstruction_2.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>ModularCargoContainer2x</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>10</PCU>
+			<DLC>Contact</DLC>
+		</Definition>
+
+		<!--Tier 4-->
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>SmallBlockModularContainer4x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_ModularCargoContainer4x</DisplayName>
+			<Icon>Textures\CargoContainerReskin_Small4x.dds</Icon>
+			<Description>Description_MediumCargoContainer</Description>
+			<CubeSize>Small</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="7" y="3" z="5" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\CargoContainerReskin_Small.mwm</Model>
+			<Components>
+				<Component Subtype="Tech4x" Count="7"/>
+				<Component Subtype="InteriorPlate" Count="140" />
+				<Component Subtype="Construction" Count="80" />
+				<Component Subtype="Computer" Count="20" />
+				<Component Subtype="Motor" Count="24" />
+				<Component Subtype="Display" Count="4" />
+				<Component Subtype="InteriorPlate" Count="60" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Right" StartX="1" StartY="0" EndX="4" EndY="3" />
+				<MountPoint Side="Right" StartX="0" StartY="0.5" EndX="0.2" EndY="2.5" />
+				<MountPoint Side="Right" StartX="4.8" StartY="0.5" EndX="5" EndY="2.5" />
+				<MountPoint Side="Left" StartX="1" StartY="0" EndX="4" EndY="3" />
+				<MountPoint Side="Left" StartX="0" StartY="0.5" EndX="0.2" EndY="2.5" />
+				<MountPoint Side="Left" StartX="4.8" StartY="0.5" EndX="5" EndY="2.5" />
+				<MountPoint Side="Top" StartX="0" StartY="1" EndX="7" EndY="4" />
+				<MountPoint Side="Bottom" StartX="0" StartY="1" EndX="7" EndY="4" />
+				<MountPoint Side="Front" StartX="0" StartY="0.5" EndX="7" EndY="2.5" />
+				<MountPoint Side="Back" StartX="0" StartY="0.5" EndX="7" EndY="2.5" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerReskin_SmallConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerReskin_SmallConstruction_2.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>ModularCargoContainer4x</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>10</PCU>
+			<DLC>Contact</DLC>
+		</Definition>
+
+		<!--Tier 8-->
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>SmallBlockModularContainer8x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_ModularCargoContainer8x</DisplayName>
+			<Icon>Textures\CargoContainerReskin_Small8x.dds</Icon>
+			<Description>Description_MediumCargoContainer</Description>
+			<CubeSize>Small</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="7" y="3" z="5" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\CargoContainerReskin_Small.mwm</Model>
+			<Components>
+				<Component Subtype="Tech8x" Count="7"/>
+				<Component Subtype="InteriorPlate" Count="280" />
+				<Component Subtype="Construction" Count="160" />
+				<Component Subtype="Computer" Count="40" />
+				<Component Subtype="Motor" Count="48" />
+				<Component Subtype="Display" Count="8" />
+				<Component Subtype="InteriorPlate" Count="120" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Right" StartX="1" StartY="0" EndX="4" EndY="3" />
+				<MountPoint Side="Right" StartX="0" StartY="0.5" EndX="0.2" EndY="2.5" />
+				<MountPoint Side="Right" StartX="4.8" StartY="0.5" EndX="5" EndY="2.5" />
+				<MountPoint Side="Left" StartX="1" StartY="0" EndX="4" EndY="3" />
+				<MountPoint Side="Left" StartX="0" StartY="0.5" EndX="0.2" EndY="2.5" />
+				<MountPoint Side="Left" StartX="4.8" StartY="0.5" EndX="5" EndY="2.5" />
+				<MountPoint Side="Top" StartX="0" StartY="1" EndX="7" EndY="4" />
+				<MountPoint Side="Bottom" StartX="0" StartY="1" EndX="7" EndY="4" />
+				<MountPoint Side="Front" StartX="0" StartY="0.5" EndX="7" EndY="2.5" />
+				<MountPoint Side="Back" StartX="0" StartY="0.5" EndX="7" EndY="2.5" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerReskin_SmallConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerReskin_SmallConstruction_2.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>ModularCargoContainer8x</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>10</PCU>
+			<DLC>Contact</DLC>
+		</Definition>
+		
+	</CubeBlocks>
+</Definitions>

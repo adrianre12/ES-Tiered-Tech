@@ -408,6 +408,36 @@
 				<Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="ShipDrillLarge8x" ForceCreate="true"/>
 			</DefaultComponents>
 		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>SmallBlockModularContainer2x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>SmallBlockModularContainer4x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory"/>
+			</DefaultComponents>
+		</Container>
+
+		<Container>
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>SmallBlockModularContainer8x</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory"/>
+			</DefaultComponents>
+		</Container>
 		
 	</EntityContainers>
 

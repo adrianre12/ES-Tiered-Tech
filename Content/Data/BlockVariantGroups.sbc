@@ -674,7 +674,10 @@
 				<Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer8x" />
 
 				<Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockModularContainer" />
-				
+				<Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockModularContainer2x" />
+				<Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockModularContainer4x" />
+				<Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockModularContainer8x" />
+
 				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer" />
 				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer2x" />
 				<Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer4x" />

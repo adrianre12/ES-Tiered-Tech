@@ -97,7 +97,30 @@
 			<Volume>79.099</Volume>
 			<CanSend>true</CanSend>
 		</EntityComponent>
-		
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SmallBlockModularContainer2x</SubtypeId>
+			</Id>
+			<Size x="1" y="1" z="20" />
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SmallBlockModularContainer4x</SubtypeId>
+			</Id>
+			<Size x="1" y="1" z="40" />
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SmallBlockModularContainer8x</SubtypeId>
+			</Id>
+			<Size x="1" y="1" z="80" />
+		</EntityComponent>
 		
 	</EntityComponents>
 </Definitions>

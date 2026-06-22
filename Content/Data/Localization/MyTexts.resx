@@ -270,4 +270,13 @@
   <data name="DisplayName_Block_SurvivalKitReskin8x" xml:space="preserve">
     <value>Elite Survival Kit Type II</value>
   </data>
+  <data name="DisplayName_Block_ModularCargoContainer2x" xml:space="preserve">
+    <value>Enhanced Modular Cargo Container</value>
+  </data>
+  <data name="DisplayName_Block_ModularCargoContainer4x" xml:space="preserve">
+    <value>Proficient Modular Cargo Container</value>
+  </data>
+  <data name="DisplayName_Block_ModularCargoContainer8x" xml:space="preserve">
+    <value>Elite Modular Cargo Container</value>
+  </data>
 </root>
