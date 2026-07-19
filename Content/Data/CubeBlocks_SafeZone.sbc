@@ -63,7 +63,7 @@
 			<MaxSafeZonePowerDrainkW>60000</MaxSafeZonePowerDrainkW>
 			<MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
 			<SafeZoneUpkeep>1</SafeZoneUpkeep>
-			<SafeZoneUpkeepTimeM>10</SafeZoneUpkeepTimeM>
+			<SafeZoneUpkeepTimeM>20</SafeZoneUpkeepTimeM>
 			<FillRatio>0.5</FillRatio>
 			<ItemPullPerRequest>1</ItemPullPerRequest>
 			<!-- End Safezone Props-->
@@ -139,7 +139,7 @@
 			<MaxSafeZonePowerDrainkW>50000</MaxSafeZonePowerDrainkW>
 			<MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
 			<SafeZoneUpkeep>1</SafeZoneUpkeep>
-			<SafeZoneUpkeepTimeM>12</SafeZoneUpkeepTimeM>
+			<SafeZoneUpkeepTimeM>30</SafeZoneUpkeepTimeM>
 			<FillRatio>0.5</FillRatio>
 			<ItemPullPerRequest>1</ItemPullPerRequest>
 			<!-- End Safezone Props-->
@@ -215,7 +215,7 @@
 			<MaxSafeZonePowerDrainkW>40000</MaxSafeZonePowerDrainkW>
 			<MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
 			<SafeZoneUpkeep>1</SafeZoneUpkeep>
-			<SafeZoneUpkeepTimeM>15</SafeZoneUpkeepTimeM>
+			<SafeZoneUpkeepTimeM>45</SafeZoneUpkeepTimeM>
 			<FillRatio>0.5</FillRatio>
 			<ItemPullPerRequest>1</ItemPullPerRequest>
 			<!-- End Safezone Props-->
@@ -291,7 +291,7 @@
 			<MaxSafeZonePowerDrainkW>30000</MaxSafeZonePowerDrainkW>
 			<MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
 			<SafeZoneUpkeep>1</SafeZoneUpkeep>
-			<SafeZoneUpkeepTimeM>20</SafeZoneUpkeepTimeM>
+			<SafeZoneUpkeepTimeM>60</SafeZoneUpkeepTimeM>
 			<FillRatio>0.5</FillRatio>
 			<ItemPullPerRequest>1</ItemPullPerRequest>
 			<!-- End Safezone Props-->
@@ -361,7 +361,7 @@
 			<MaxSafeZonePowerDrainkW>60000</MaxSafeZonePowerDrainkW>
 			<MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
 			<SafeZoneUpkeep>1</SafeZoneUpkeep>
-			<SafeZoneUpkeepTimeM>10</SafeZoneUpkeepTimeM>
+			<SafeZoneUpkeepTimeM>20</SafeZoneUpkeepTimeM>
 			<FillRatio>0.5</FillRatio>
 			<ItemPullPerRequest>1</ItemPullPerRequest>
 
@@ -432,7 +432,7 @@
 			<MaxSafeZonePowerDrainkW>50000</MaxSafeZonePowerDrainkW>
 			<MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
 			<SafeZoneUpkeep>1</SafeZoneUpkeep>
-			<SafeZoneUpkeepTimeM>12</SafeZoneUpkeepTimeM>
+			<SafeZoneUpkeepTimeM>30</SafeZoneUpkeepTimeM>
 			<FillRatio>0.5</FillRatio>
 			<ItemPullPerRequest>1</ItemPullPerRequest>
 
@@ -503,7 +503,7 @@
 			<MaxSafeZonePowerDrainkW>40000</MaxSafeZonePowerDrainkW>
 			<MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
 			<SafeZoneUpkeep>1</SafeZoneUpkeep>
-			<SafeZoneUpkeepTimeM>15</SafeZoneUpkeepTimeM>
+			<SafeZoneUpkeepTimeM>45</SafeZoneUpkeepTimeM>
 			<FillRatio>0.5</FillRatio>
 			<ItemPullPerRequest>1</ItemPullPerRequest>
 
@@ -574,7 +574,7 @@
 			<MaxSafeZonePowerDrainkW>30000</MaxSafeZonePowerDrainkW>
 			<MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
 			<SafeZoneUpkeep>1</SafeZoneUpkeep>
-			<SafeZoneUpkeepTimeM>20</SafeZoneUpkeepTimeM>
+			<SafeZoneUpkeepTimeM>60</SafeZoneUpkeepTimeM>
 			<FillRatio>0.5</FillRatio>
 			<ItemPullPerRequest>1</ItemPullPerRequest>
 
