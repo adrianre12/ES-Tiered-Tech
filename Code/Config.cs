@@ -1,15 +1,7 @@
-﻿    using System;
-using System.IO;
-using System.Text;
-using Sandbox.Game;
-using Sandbox.Game.Entities;
-using Sandbox.ModAPI;
-using Sandbox.ModAPI.Weapons;
+﻿using Sandbox.ModAPI;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using VRage.Game.ModAPI;
-using VRage.ModAPI;
-using VRage.Game;
+using System.IO;
 using VRage.Utils;
 
 namespace TieredTechBlocks
@@ -22,6 +14,9 @@ namespace TieredTechBlocks
 
         public static void Load()
         {
+            if (Instance != null)
+                return;
+
             // Load config xml
             if (MyAPIGateway.Utilities.FileExistsInWorldStorage("TieredTechBlocksConfig.xml", typeof(MyConfig)))
             {
@@ -58,11 +53,11 @@ namespace TieredTechBlocks
 
 
             // Updates
-            if(Instance.ExcludeGrids == null)
+            if (Instance.ExcludeGrids == null)
             {
                 Instance.ExcludeGrids = new List<string>() { "respawn" };
             }
-            if(Instance.DisableGrindSubgridDamage == null)
+            if (Instance.DisableGrindSubgridDamage == null)
             {
                 Instance.DisableGrindSubgridDamage = true;
             }

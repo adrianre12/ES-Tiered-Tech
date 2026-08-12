@@ -1,10 +1,7 @@
-﻿using System;
+﻿using ProtoBuf;
+using System;
 using System.Collections.Generic;
-using ProtoBuf;
 using System.Xml.Serialization;
-using VRageMath;
-using VRage.Game;
-using System.Text;
 
 namespace TieredTechBlocks
 {
@@ -23,12 +20,21 @@ namespace TieredTechBlocks
         [ProtoMember(5)]
         public Item SmallGridExotic;
         [ProtoMember(6)]
-        public Item LargeGridExotic;    
+        public Item LargeGridExotic;
         [ProtoMember(7)]
         public List<string> ExcludeGrids;
         [ProtoMember(8)]
         public Boolean DisableGrindSubgridDamage = true;
-
+        [ProtoMember(9)]
+        public Boolean Debug = false;
+        [ProtoMember(10)]
+        public uint MinOfflineMins = 15; // offline time to ignore
+        [ProtoMember(11)]
+        public uint TestOfflineS = 0; // use to spoof offline periods
+        [ProtoMember(12)]
+        public Boolean ForceOff = true;
+        [ProtoMember(13)]
+        public uint OfflineUpkeepMultiplier = 1; // 0 disables it
     }
 
     [ProtoContract]

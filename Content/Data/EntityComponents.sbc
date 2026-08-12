@@ -3,12 +3,37 @@
 
 	<EntityComponents>
 
+		<EntityComponent xsi:type="MyObjectBuilder_ModStorageComponentDefinition">
+			<Id>
+				<TypeId>ModStorageComponent</TypeId>
+				<SubtypeId>ESZoneBlock</SubtypeId>
+			</Id>
+			<RegisteredStorageGuids>
+				<guid>154045E8-9AF6-4C58-B120-F059E56651B5</guid>
+			</RegisteredStorageGuids>
+		</EntityComponent>
+		
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>SafeZoneBlock</SubtypeId>
+			</Id>
+			<Volume>0.250</Volume>
+			<CanReceive>true</CanReceive>
+			<InputConstraint Whitelist="true" Description="DisplayName_InventoryConstraint_ZoneChips" Icon="Textures\GUI\Icons\filter_zonechip.dds">
+				<Entry>
+					<TypeId>Component</TypeId>
+					<SubtypeId>ZoneChip</SubtypeId>
+				</Entry>
+			</InputConstraint>
+		</EntityComponent>
 		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
 			<Id>
 				<TypeId>Inventory</TypeId>
 				<SubtypeId>SafeZoneBlock2x</SubtypeId>
 			</Id>
-			<Volume>0.005</Volume>
+			<Volume>0.250</Volume>
+			<CanReceive>true</CanReceive>
 			<InputConstraint IsWhitelist="true">
 				<Entry>
 					<TypeId>Component</TypeId>
@@ -21,7 +46,8 @@
 				<TypeId>Inventory</TypeId>
 				<SubtypeId>SafeZoneBlock4x</SubtypeId>
 			</Id>
-			<Volume>0.005</Volume>
+			<Volume>0.250</Volume>
+			<CanReceive>true</CanReceive>
 			<InputConstraint IsWhitelist="true">
 				<Entry>
 					<TypeId>Component</TypeId>
@@ -34,7 +60,8 @@
 				<TypeId>Inventory</TypeId>
 				<SubtypeId>SafeZoneBlock8x</SubtypeId>
 			</Id>
-			<Volume>0.005</Volume>
+			<Volume>0.250</Volume>
+			<CanReceive>true</CanReceive>
 			<InputConstraint IsWhitelist="true">
 				<Entry>
 					<TypeId>Component</TypeId>
