@@ -31,7 +31,7 @@ namespace ES.ZoneBlock
         private long minOfflineMins;
         private long testOfflineS;
         private bool forceOff = false;
-        private long offlineUpkeepMultiplier;
+        private bool enableOfflineUpkeep;
 
 
         [ProtoContract(UseProtoMembersOnly = true)]
@@ -61,7 +61,7 @@ namespace ES.ZoneBlock
             Log.Debug = Config.Instance.Debug;
             forceOff = Config.Instance.ForceOff;
             testOfflineS = Config.Instance.TestOfflineS;
-            offlineUpkeepMultiplier = Config.Instance.OfflineUpkeepMultiplier;
+            enableOfflineUpkeep = Config.Instance.EnableOfflineUpkeep;
 
             if (Log.Debug) Log.Msg($"minOfflineMins={minOfflineMins} testOfflineS={testOfflineS}");
 
@@ -82,7 +82,7 @@ namespace ES.ZoneBlock
             MySafeZoneBlockDefinition bd = (MySafeZoneBlockDefinition)MyDefinitionManager.Static.GetCubeBlockDefinition(block.BlockDefinition);
 
             safeZoneUpkeep = bd.SafeZoneUpkeep;
-            safeZoneUpkeepTimeS = bd.SafeZoneUpkeepTimeM * 60 * offlineUpkeepMultiplier;
+            safeZoneUpkeepTimeS = bd.SafeZoneUpkeepTimeM * 60;
             if (Log.Debug) Log.Msg($"safeZoneUpkeep={safeZoneUpkeep} safeZoneUpkeepTimeS={safeZoneUpkeepTimeS}");
 
             if (testOfflineS > 0)
@@ -101,7 +101,7 @@ namespace ES.ZoneBlock
                 return;
             updateCounter = PollPeriod;
 
-            if (Paused())
+            if (enableOfflineUpkeep && Paused())
             {
                 if (Log.Debug) Log.Msg("Paused detected");
 

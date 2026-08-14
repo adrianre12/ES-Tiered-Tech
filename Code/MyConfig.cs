@@ -34,7 +34,7 @@ namespace TieredTechBlocks
         [ProtoMember(12)]
         public Boolean ForceOff = true;
         [ProtoMember(13)]
-        public uint OfflineUpkeepMultiplier = 1; // 0 disables it
+        public Boolean EnableOfflineUpkeep = true;
     }
 
     [ProtoContract]
